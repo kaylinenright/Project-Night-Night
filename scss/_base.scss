@@ -1,10 +1,7 @@
 // Variables
 
-$light-grey: #ccc;
-$dark-grey: #222;
-$blue: #04b4bb;
-$orange: #f27c43;
-$light-blue: #d0e9e5;
-$white: #fff;
-
-$text-color: $dark-grey;
+$blue: #00a5a9; //-gray: pass-l-aa -white: pass-l-aa
+$orange: #f16824; //-gray: pass-l-aa -white: pass-l-aa
+$yellow: #f5c715; //-gray: pass -white: fail
+$gray: #333333; //-blue: pass -orange: pass -yellow: pass -white: pass
+$white: #fff; //-blue: pass -orange: pass -yellow: fail gray: pass
