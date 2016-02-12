@@ -17,3 +17,16 @@ html {
 	box-sizing: inherit;
 }
 
+
+.nav {
+	list-style-type: none;
+	li {
+		padding-top: 1em;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+		text-transform: uppercase;
+		font-family: sans-serif;
+	}
+}
