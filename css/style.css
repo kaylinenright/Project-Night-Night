@@ -1,3 +1,110 @@
+@-moz-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@viewport {
+  width: device-width;
+  scale: 1;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  top: -3em;
+}
+
+.skip-links a {
+  padding: 0.5em 0.75em;
+  position: absolute;
+  top: -3em;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  float: right;
+  padding-right: 2em;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0.5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5em 0.75em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  display: inline-block;
+  background-color: red;
+}
+
+a:hover {
+  color: #00a5a9;
+}
+
+.donate {
+  border: solid #00a5a9 3px;
+  padding: .25em;
+}
+
+.donate:hover {
+  background-color: #00a5a9;
+  color: #fff;
+}
+
+/*border: 1px black solid;
+padding-bottom: 2px;
+display: block;
+width: 100px;
+}*/
 /*
   Gridifier || Code released under the UNLICENSE
   http://thomasjbradley.github.io/gridifier/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1
@@ -1020,50 +1127,4 @@ td, th, fieldset {
     padding-left: 0.3750rem;
     padding-right: 0.3750rem;
   }
-}
-
-@-moz-viewport {
-  width: device-width;
-  scale: 1;
-}
-
-@-ms-viewport {
-  width: device-width;
-  scale: 1;
-}
-
-@-webkit-viewport {
-  width: device-width;
-  scale: 1;
-}
-
-@viewport {
-  width: device-width;
-  scale: 1;
-}
-
-html {
-  box-sizing: border-box;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.nav {
-  list-style-type: none;
-}
-
-.nav li {
-  padding-top: 1em;
-}
-
-.nav a {
-  text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-  font-family: sans-serif;
 }
