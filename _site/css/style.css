@@ -60,31 +60,76 @@ body {
   top: 0;
 }
 
-.nav {
-  list-style-type: none;
-  display: none;
-}
-
-.nav a {
+.current {
   display: block;
-  padding: 0.5em;
   text-decoration: none;
-  color: #000;
   text-align: center;
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 1.8020rem;
+  line-height: 60px;
+  color: #fff;
+  background-color: #00a5a9;
 }
 
-.nav a:hover {
-  background-color: #000;
+.donate {
+  border: solid #00a5a9 3px;
+  padding: .25em;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 1.8020rem;
+  line-height: 60px;
+  color: #000;
+}
+
+.donate:hover {
+  background-color: #00a5a9;
   color: #fff;
+}
+
+.header-nav {
+  position: fixed;
+}
+
+.nav {
+  margin: 0;
+  padding-top: 6em;
+  list-style-type: none;
+  background-color: #fff;
+  position: fixed;
+  right: 30px;
+  top: 10%;
+  width: 100vw;
+  height: 100vh;
+  transition: all 250ms linear;
+  left: -100%;
+}
+
+.nav .regular {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 1.8020rem;
+  line-height: 60px;
+  color: #000;
+}
+
+.nav .regular:hover {
+  color: #73c7b0;
 }
 
 .nav-check {
   position: absolute;
-  top: -3em;
+  top: -10em;
 }
 
 .nav-check:checked ~ .nav {
-  display: block;
+  left: 0;
 }
 
 .nav-label {
@@ -96,7 +141,7 @@ body {
   width: 50px;
   height: 40px;
   position: fixed;
-  left: 12px;
+  right: 12px;
   top: 22px;
   color: white;
   background-image: url(../img/nav-icon.svg);
@@ -109,21 +154,25 @@ body {
   background-position: center bottom;
 }
 
-.donate {
-  border: solid #00a5a9 3px;
-  padding: .25em;
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  top: -3em;
 }
 
-.donate:hover {
-  background-color: #00a5a9;
-  color: #fff;
+.logo {
+  height: 40px;
+  left: 12px;
+  position: absolute;
+  margin-top: 22px;
+  z-index: 10000;
 }
 
-/*border: 1px black solid;
-padding-bottom: 2px;
-display: block;
-width: 100px;
-}*/
+.logo-size {
+  width: 65px;
+}
+
 /*
   Gridifier || Code released under the UNLICENSE
   http://thomasjbradley.github.io/gridifier/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1
