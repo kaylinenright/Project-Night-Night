@@ -74,7 +74,6 @@ body {
 
 .donate {
   border: solid #00a5a9 3px;
-  padding: .25em;
   display: block;
   text-decoration: none;
   text-align: center;
@@ -83,6 +82,7 @@ body {
   font-size: 1.8020rem;
   line-height: 60px;
   color: #000;
+  margin: 0 .75em;
 }
 
 .donate:hover {
@@ -96,7 +96,6 @@ body {
 
 .nav {
   margin: 0;
-  padding-top: 6em;
   list-style-type: none;
   background-color: #fff;
   position: fixed;
@@ -105,7 +104,7 @@ body {
   width: 100vw;
   height: 100vh;
   transition: all 250ms linear;
-  left: -100%;
+  left: -150%;
 }
 
 .nav .regular {
@@ -152,13 +151,6 @@ body {
 
 .nav-check:checked ~ .nav-label {
   background-position: center bottom;
-}
-
-.skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  top: -3em;
 }
 
 .logo {
