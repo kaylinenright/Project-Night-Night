@@ -27,7 +27,7 @@ body {
 }
 
 
-//***************************Skip Links***************//
+//*************************** Skip Links ***************//
 .skip-links {
 	margin: 0;
 	padding: 0;
@@ -48,7 +48,7 @@ body {
  }
 }
 
-//***************************Navigation Start***************//
+//********************** General Navigation details ***************//
 .current {
 		display: block;
 	  text-decoration: none;
@@ -61,10 +61,8 @@ body {
 	  background-color: $blue
 }
 
-
 .donate {
 		border: solid $blue 3px;
-		padding: .25em;
 		 display: block;
 	  text-decoration: none;
 	  text-align: center;
@@ -73,6 +71,7 @@ body {
 	  font-size: 1.8020rem;
 	  line-height: 60px;
 	  color: $black;
+	  margin: 0 .75em;
 		&:hover {
 			background-color: $blue;
 			color: $white;
@@ -83,9 +82,10 @@ body {
 	position: fixed;
 }
 
+//*************************** Toggle Navigation ***************//
+
 .nav {
   margin: 0;
-  padding-top: 6em;
   list-style-type: none;
   background-color: $white;
   position: fixed;
@@ -95,7 +95,7 @@ body {
   height: 100vh;
   -webkit-transition: all 250ms linear;
    transition: all 250ms linear;
-  left: -100%;
+  left: -150%;
   .regular {
 	  display: block;
 	  text-decoration: none;
@@ -137,19 +137,12 @@ body {
   white-space: nowrap;
 }
 
-
 .nav-check:checked ~ .nav-label {
   background-position: center bottom;
 }
 
-.skip-links {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	top: -3em;
-}
 
-//Project Night Night Logo in navigation
+//***************** Project Night Night Logo in navigation **********//
 .logo {
 	height: 40px;
 	left: 12px;
