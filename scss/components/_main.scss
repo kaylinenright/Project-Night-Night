@@ -93,16 +93,6 @@ body {
 	}
 }
 
-// .header-nav {
-// 	xposition: fixed;
-// 	sheight: 10vh;
-// 	xwidth: 100vw;
-// 	@media only screen and (min-width: 60em) {
-// 		position: static;
-
-// 	}
-// }
-
 //*************************** Toggle Navigation ***************//
 
 .nav {
@@ -295,6 +285,6 @@ body {
 main {
 	margin-top: 5em; //change this when you put your billboard in to push images to top of page
 	@media only screen and (min-width: 60em) {
-		margin-top: 7em;
+		margin-top: 7em; //change this when you put your billboard in to push images to top of page
 	}
 }
