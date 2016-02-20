@@ -26,7 +26,6 @@ body {
 	display: block;
 }
 
-
 //*************************** Skip Links ***************//
 .skip-links {
 	margin: 0;
@@ -50,43 +49,66 @@ body {
 
 //********************** General Navigation details ***************//
 .current {
-		display: block;
-	  text-decoration: none;
-	  text-align: center;
-	  font-family: sans-serif;
+	display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 1.8020rem;
+  line-height: 60px;
+  color: $blue;
+	@media only screen and (min-width: 60em) {
 	  line-height: 60px;
-	  font-size: 1.8020rem;
-	  line-height: 60px;
-	  color: $white;
-	  background-color: $blue
+		font-size: 1rem;
+		color: $blue;
+		padding: 0.15em 1em;
+	}
 }
 
 .donate {
-		border: solid $blue 3px;
-		 display: block;
-	  text-decoration: none;
-	  text-align: center;
-	  font-family: sans-serif;
-	  line-height: 60px;
-	  font-size: 1.8020rem;
-	  line-height: 60px;
-	  color: $black;
-	  margin: 0 .75em;
-		&:hover {
-			background-color: $blue;
-			color: $white;
-		}
+	border: solid $blue 3px;
+	display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 1.8020rem;
+  line-height: 60px;
+  color: $black;
+  margin: 0 .75em;
+  padding: 0;
+	&:hover {
+		background-color: $blue;
+		color: $white;
 	}
-
-.header-nav {
-	position: fixed;
+	@media only screen and (min-width: 60em) {
+  	line-height: 60px;
+ 		font-size: 1rem;
+ 		margin: .25em 0.5em 0 0;
+ 		display: inline;
+ 		padding: 0.25em 1em;
+	}
+	@media only screen and (min-width: 90em) {
+		margin: .25em 3em 0 0;
+	}
 }
+
+// .header-nav {
+// 	xposition: fixed;
+// 	sheight: 10vh;
+// 	xwidth: 100vw;
+// 	@media only screen and (min-width: 60em) {
+// 		position: static;
+
+// 	}
+// }
 
 //*************************** Toggle Navigation ***************//
 
 .nav {
   margin: 0;
   list-style-type: none;
+  padding: 0;
   background-color: $white;
   position: fixed;
   right:30px;
@@ -94,20 +116,53 @@ body {
   width: 100vw;
   height: 100vh;
   -webkit-transition: all 250ms linear;
-   transition: all 250ms linear;
+  transition: all 250ms linear;
   left: -150%;
-  .regular {
-	  display: block;
-	  text-decoration: none;
-	  text-align: center;
-	  font-family: sans-serif;
-	  line-height: 60px;
-	  font-size: 1.8020rem;
-	  line-height: 60px;
-	  color: $black;
-		&:hover {
-			color: #73c7b0;
+	@media only screen and (min-width: 60em) {
+		text-align: right;
+		right:30px;
+		top: 0;
+		left: -37px;
+		-webkit-transition: none;
+		transition: none;
+		background-color: transparent;
+		height: 0vh;
+		position: static;
+		width: auto;
 		}
+  li {
+		display: block;
+		@media only screen and (min-width: 60em) {
+			display: inline-block;
+		}
+  }
+  .regular{
+  	@media only screen and (min-width: 60em) {
+  		display: inline-block;
+  		padding: 0.75em  .75em;
+		}
+		@media only screen and (min-width: 90em) {
+		padding: 1.5em .75em;
+	}
+	 }
+ }
+
+ .regular {
+	 display: block;
+	 text-decoration: none;
+	 text-align: center;
+	 font-family: sans-serif;
+	 line-height: 60px;
+	 font-size: 1.8020rem;
+	 line-height: 60px;
+	 color: $black;
+	&:hover {
+		color: $blue;
+	}
+	@media only screen and (min-width: 60em) {
+	 line-height: 60px;
+	 font-size: 1rem;
+	 display: inline-block;
 	}
 }
 
@@ -116,6 +171,10 @@ body {
   top: -10em;
   &:checked ~ .nav {
   	left: 0;
+  	top: 10%;
+  	@media only screen and (min-width: 60em) {
+  		top: 0;
+  	}
   }
 }
 
@@ -135,6 +194,14 @@ body {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
+  @media only screen and (min-width: 60em) {
+  	display: none;
+		top: -30px;
+		width: 150px;
+		height: 0;
+		display: block;
+		background-color: transparent;
+  }
 }
 
 .nav-check:checked ~ .nav-label {
@@ -145,12 +212,86 @@ body {
 //***************** Project Night Night Logo in navigation **********//
 .logo {
 	height: 40px;
-	left: 12px;
-	position: absolute;
-	margin-top: 22px;
-	z-index: 10000;
+	position: fixed;
+	margin-top: -60px;
+	padding: .25em;
+	@media only screen and (min-width: 60em) {
+		margin-top: -75px;
+		position: static;
+		overflow: hidden;
+		float: left;
+		margin-top: 0;
+		height: 100%;
+		padding: 1em 0 0 1em;;
+	}
 }
 
 .logo-size {
 	width: 65px;
+	@media only screen and (min-width: 60em) {
+		width: 125px;
+	}
+}
+
+
+// **************************** footer ****************************//
+//*****************************************************************//
+
+.footer-color {
+	background-color: $blue;
+	xheight: 500px;
+	bottom: 0;
+	li {
+		list-style-type: none;
+		@media only screen and (min-width: 60em) {
+			display: inline-block;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: $white;
+		font-family: sans-serif;
+		@media only screen and (min-width: 60em) {
+			padding: 0 .5em;
+		}
+	}
+
+}
+
+.address {
+	color: $white;
+	font-family: sans-serif;
+	padding: 0 2em;
+	@media only screen and (min-width: 60em) {
+		padding: 0 3em;
+	}
+}
+
+.footer-link {
+	li {
+		padding-bottom: .5em;
+	}
+	a {
+		padding: 0 1em;
+	}
+	@media only screen and (min-width: 60em) {
+		text-align: center;
+	}
+}
+.social-btn {
+	text-align: center;
+}
+
+.icon-size {
+	font-size: 4em;
+	color: $white;
+	text-decoration: none;
+	text-align: center;
+
+}
+main {
+	margin-top: 5em; //change this when you put your billboard in to push images to top of page
+	@media only screen and (min-width: 60em) {
+		margin-top: 7em;
+	}
 }

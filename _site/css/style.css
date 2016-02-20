@@ -68,8 +68,16 @@ body {
   line-height: 60px;
   font-size: 1.8020rem;
   line-height: 60px;
-  color: #fff;
-  background-color: #00a5a9;
+  color: #00a5a9;
+}
+
+@media only screen and (min-width: 60em) {
+  .current {
+    line-height: 60px;
+    font-size: 1rem;
+    color: #00a5a9;
+    padding: 0.15em 1em;
+  }
 }
 
 .donate {
@@ -83,6 +91,7 @@ body {
   line-height: 60px;
   color: #000;
   margin: 0 .75em;
+  padding: 0;
 }
 
 .donate:hover {
@@ -90,13 +99,26 @@ body {
   color: #fff;
 }
 
-.header-nav {
-  position: fixed;
+@media only screen and (min-width: 60em) {
+  .donate {
+    line-height: 60px;
+    font-size: 1rem;
+    margin: .25em 0.5em 0 0;
+    display: inline;
+    padding: 0.25em 1em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .donate {
+    margin: .25em 3em 0 0;
+  }
 }
 
 .nav {
   margin: 0;
   list-style-type: none;
+  padding: 0;
   background-color: #fff;
   position: fixed;
   right: 30px;
@@ -107,7 +129,44 @@ body {
   left: -150%;
 }
 
-.nav .regular {
+@media only screen and (min-width: 60em) {
+  .nav {
+    text-align: right;
+    right: 30px;
+    top: 0;
+    left: -37px;
+    transition: none;
+    background-color: transparent;
+    height: 0vh;
+    position: static;
+    width: auto;
+  }
+}
+
+.nav li {
+  display: block;
+}
+
+@media only screen and (min-width: 60em) {
+  .nav li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .nav .regular {
+    display: inline-block;
+    padding: 0.75em  .75em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .nav .regular {
+    padding: 1.5em .75em;
+  }
+}
+
+.regular {
   display: block;
   text-decoration: none;
   text-align: center;
@@ -118,8 +177,16 @@ body {
   color: #000;
 }
 
-.nav .regular:hover {
-  color: #73c7b0;
+.regular:hover {
+  color: #00a5a9;
+}
+
+@media only screen and (min-width: 60em) {
+  .regular {
+    line-height: 60px;
+    font-size: 1rem;
+    display: inline-block;
+  }
 }
 
 .nav-check {
@@ -129,6 +196,13 @@ body {
 
 .nav-check:checked ~ .nav {
   left: 0;
+  top: 10%;
+}
+
+@media only screen and (min-width: 60em) {
+  .nav-check:checked ~ .nav {
+    top: 0;
+  }
 }
 
 .nav-label {
@@ -149,20 +223,123 @@ body {
   white-space: nowrap;
 }
 
+@media only screen and (min-width: 60em) {
+  .nav-label {
+    display: none;
+    top: -30px;
+    width: 150px;
+    height: 0;
+    display: block;
+    background-color: transparent;
+  }
+}
+
 .nav-check:checked ~ .nav-label {
   background-position: center bottom;
 }
 
 .logo {
   height: 40px;
-  left: 12px;
-  position: absolute;
-  margin-top: 22px;
-  z-index: 10000;
+  position: fixed;
+  margin-top: -60px;
+  padding: .25em;
+}
+
+@media only screen and (min-width: 60em) {
+  .logo {
+    margin-top: -75px;
+    position: static;
+    overflow: hidden;
+    float: left;
+    margin-top: 0;
+    height: 100%;
+    padding: 1em 0 0 1em;
+  }
 }
 
 .logo-size {
   width: 65px;
+}
+
+@media only screen and (min-width: 60em) {
+  .logo-size {
+    width: 125px;
+  }
+}
+
+.footer-color {
+  background-color: #00a5a9;
+  xheight: 500px;
+  bottom: 0;
+}
+
+.footer-color li {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 60em) {
+  .footer-color li {
+    display: inline-block;
+  }
+}
+
+.footer-color a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+@media only screen and (min-width: 60em) {
+  .footer-color a {
+    padding: 0 .5em;
+  }
+}
+
+.address {
+  color: #fff;
+  font-family: sans-serif;
+  padding: 0 2em;
+}
+
+@media only screen and (min-width: 60em) {
+  .address {
+    padding: 0 3em;
+  }
+}
+
+.footer-link li {
+  padding-bottom: .5em;
+}
+
+.footer-link a {
+  padding: 0 1em;
+}
+
+@media only screen and (min-width: 60em) {
+  .footer-link {
+    text-align: center;
+  }
+}
+
+.social-btn {
+  text-align: center;
+}
+
+.icon-size {
+  font-size: 4em;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+main {
+  margin-top: 5em;
+}
+
+@media only screen and (min-width: 60em) {
+  main {
+    margin-top: 7em;
+  }
 }
 
 /*
