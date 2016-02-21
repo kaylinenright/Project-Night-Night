@@ -136,9 +136,8 @@ body {
     top: 0;
     left: -37px;
     transition: none;
-    background-color: transparent;
     height: 0vh;
-    position: static;
+    xposition: static;
     width: auto;
   }
 }
@@ -241,14 +240,12 @@ body {
 .logo {
   height: 40px;
   position: fixed;
-  margin-top: -60px;
-  padding: .25em;
+  padding: 1em;
 }
 
 @media only screen and (min-width: 60em) {
   .logo {
-    margin-top: -75px;
-    position: static;
+    xposition: static;
     overflow: hidden;
     float: left;
     margin-top: 0;
@@ -258,7 +255,7 @@ body {
 }
 
 .logo-size {
-  width: 65px;
+  width: 100px;
 }
 
 @media only screen and (min-width: 60em) {
@@ -277,7 +274,7 @@ body {
   list-style-type: none;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
   .footer-color li {
     display: inline-block;
   }
@@ -293,7 +290,7 @@ body {
   color: #000;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
   .footer-color a {
     padding: 0 .5em;
   }
@@ -311,18 +308,29 @@ body {
   }
 }
 
+.footer-link {
+  text-align: left;
+}
+
+@media only screen and (min-width: 38em) {
+  .footer-link {
+    text-align: center;
+  }
+}
+
 .footer-link li {
   padding-bottom: .5em;
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+  .footer-link li {
+    display: inline-block;
+  }
 }
 
 .footer-link a {
   padding: 0 1em;
-}
-
-@media only screen and (min-width: 60em) {
-  .footer-link {
-    text-align: center;
-  }
 }
 
 .social-btn {
@@ -336,12 +344,12 @@ body {
   text-align: center;
 }
 
-main {
+xmain {
   margin-top: 5em;
 }
 
 @media only screen and (min-width: 60em) {
-  main {
+  xmain {
     margin-top: 7em;
   }
 }
