@@ -1,4 +1,4 @@
 permalink: pretty
-baseurl: "project-night-night/"
+baseurl: ""
 exclude: ['README.md']
 exclude: [scss]
