@@ -12,3 +12,33 @@
 	font-size: 3em;
 	text-align: center;
 }
+
+.involve-video {
+	height: 200px;
+	width: 270px;
+	@media only screen and (min-width: 25em) {
+	height: 300px;
+	width: 100%;
+	}
+}
+
+.start-btn {
+	  background-color: $blue;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 1em 1.75em;
+
+}
+
+.start-container {
+	padding-bottom: 4em;
+	text-align: center;
+}
+
+.volunteer {
+	background-color: $yellow;
+}
+
+

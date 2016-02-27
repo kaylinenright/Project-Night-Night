@@ -1504,3 +1504,33 @@ td, th, fieldset {
   font-size: 3em;
   text-align: center;
 }
+
+.involve-video {
+  height: 200px;
+  width: 270px;
+}
+
+@media only screen and (min-width: 25em) {
+  .involve-video {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.start-btn {
+  background-color: #00a5a9;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 1em 1.75em;
+}
+
+.start-container {
+  padding-bottom: 4em;
+  text-align: center;
+}
+
+.volunteer {
+  background-color: #f5c715;
+}
