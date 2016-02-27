@@ -10,43 +10,51 @@
 				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-2-alt}}">
 			{% endfor %}
 		</div>
-			<div class="unit unit-xs-1-2 unit-s-1-3 unit-m-1-5 unit-l-1-5">
+			<div class="unit unit-xs-hidden unit-s-1-3 unit-m-1-5 unit-l-1-5">
 			{% for img in page.img-row-3 %}
 				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-3-alt}}">
 			{% endfor %}
 		</div>
-			<div class="unit unit-xs-1-2 unit-s-1-3 unit-m-1-5 unit-l-1-5">
+			<div class="unit unit-xs-hidden unit-s-hidden unit-m-1-5 unit-l-1-5">
 			{% for img in page.img-row-4 %}
 				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-4-alt}}">
 			{% endfor %}
 		</div>
-			<div class="unit unit-xs-1-2 unit-s-1-3 unit-m-1-5 unit-l-1-5">
+			<div class="unit unit-xs-hidden unit-s-hidden unit-m-1-5 unit-l-1-5">
 			{% for img in page.img-row-5 %}
 				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-5-alt}}">
 			{% endfor %}
 		</div>
 	</section>
 {% endif %}
+<!--
+{% if page.img-row2 %}
+	<section class="grid">
+		<div class="unit unit-xs-1-2 unit-s-1-3 unit-m-1-5 unit-l-1-5">
+			{% for img in page.img-row-1 %}
+				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-1-alt}}">
+			{% endfor %}
+		</div>
+			<div class="unit unit-xs-1-2 unit-s-1-3 unit-m-1-5 unit-l-1-5">
+			{% for img in page.img-row-2 %}
+				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-2-alt}}">
+			{% endfor %}
+		</div>
+			<div class="unit unit-xs-hidden unit-s-1-3 unit-m-1-5 unit-l-1-5">
+			{% for img in page.img-row-3 %}
+				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-3-alt}}">
+			{% endfor %}
+		</div>
+			<div class="unit unit-xs-hidden unit-s-hidden unit-m-1-5 unit-l-1-5">
+			{% for img in page.img-row-4 %}
+				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-4-alt}}">
+			{% endfor %}
+		</div>
+			<div class="unit unit-xs-hidden unit-s-hidden unit-m-1-5 unit-l-1-5">
+			{% for img in page.img-row-5 %}
+				<img class="img-flex" src="{{site.baseurl}}/{{img}}" alt="{{page.img-row-5-alt}}">
+			{% endfor %}
+		</div>
+	</section>
+{% endif %} -->
 
-
-{% if page.img-research1 %}
-						<div class="grid unit">
-							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
-							{% if page.caption-research1 %}
-								<figcaption class="caption-research1">
-									<p class="micro info">{{page.caption-research1}}</p>
-									<hr claass="line-cap">
-								</figcaption>
-								{% endif %}
-								{% for img in page.img-research1 %}
-									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research1-alt}}">
-								{% endfor %}
-							</figure>
-							{% if page.caption-research1 %}
-							<div class=" caption-research1-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
-								<p class="micro line-cap">{{page.caption-research1}}</p>
-								<hr>
-							</div>
-							{% endif %}
-						</div>
-{% endif %}

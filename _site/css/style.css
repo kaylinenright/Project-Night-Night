@@ -1646,7 +1646,7 @@ td, th, fieldset {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: right;
     right: 30px;
-    height: 13vh;
+    height: 15vh;
     left: 0px;
     transition: none;
     padding-right: 1em;
@@ -1920,4 +1920,12 @@ td, th, fieldset {
 
 .row-img {
   white-space: nowrap;
+}
+
+.birthday {
+  background-color: #333333;
+}
+
+.marketing {
+  background-color: red;
 }
