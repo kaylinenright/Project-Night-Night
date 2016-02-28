@@ -1961,3 +1961,7 @@ td, th, fieldset {
 .blog-username p {
   float: left;
 }
+
+.news-section div {
+  padding: .5em;
+}
