@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700,900);
 @-moz-viewport {
   width: device-width;
   scale: 1;
@@ -1901,12 +1902,16 @@ td, th, fieldset {
 }
 
 .start-btn {
-  background-color: #00a5a9;
+  font-family: "Lato", helvetica, sans-serif;
   list-style-type: none;
   text-decoration: none;
-  color: white;
-  font-family: sans-serif;
-  padding: 1em 1.75em;
+  border: 2px solid #00a5a9;
+  color: #00a5a9;
+  padding: 1em;
+}
+
+.start-btn:hover {
+  background-color: #00a5a9;
 }
 
 .start-container {
@@ -1936,4 +1941,45 @@ td, th, fieldset {
   margin-right: auto;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.blogs {
+  margin: 0;
+  padding: 1em;
+  float: left;
+}
+
+.blog-outline {
+  border: 1px solid #333333;
+  padding: .5em;
+  margin: -.5em;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.blog-icons {
+  margin: 0;
+}
+
+.blog-username p {
+  float: left;
+}
+
+.news-section div {
+  padding: 1em;
+}
+
+.blog-load-more {
+  width: 100%;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.blog-load-more button {
+  border: none;
+  padding: 1em;
+  font-size: 1em;
+  margin-top: 1em;
 }
