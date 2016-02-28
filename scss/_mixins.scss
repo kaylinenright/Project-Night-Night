@@ -32,3 +32,22 @@
   overflow: auto;
 }
 
+@mixin header($color) {
+  font-family: $text;
+  font-size: 18px;
+  color: $color;
+}
+
+@mixin button($color) {
+  @include header;
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid $color;
+  color: $color;
+  padding: 1em;
+  &:hover {
+    background-color: $color;
+  }
+}
+
+
