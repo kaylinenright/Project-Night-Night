@@ -1945,8 +1945,9 @@ td, th, fieldset {
 }
 
 .blog-outline {
-  border: 2px solid #333333;
+  border: 1px solid #333333;
   padding: .5em;
+  margin: -.5em;
 }
 
 .blog-image {
