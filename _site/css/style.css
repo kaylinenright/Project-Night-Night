@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700,900);
 @-moz-viewport {
   width: device-width;
   scale: 1;
@@ -1901,12 +1902,16 @@ td, th, fieldset {
 }
 
 .start-btn {
-  background-color: #00a5a9;
+  font-family: "Lato", helvetica, sans-serif;
   list-style-type: none;
   text-decoration: none;
-  color: white;
-  font-family: sans-serif;
-  padding: 1em 1.75em;
+  border: 2px solid #00a5a9;
+  color: #00a5a9;
+  padding: 1em;
+}
+
+.start-btn:hover {
+  background-color: #00a5a9;
 }
 
 .start-container {
