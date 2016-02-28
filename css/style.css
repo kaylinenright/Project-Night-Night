@@ -1937,3 +1937,26 @@ td, th, fieldset {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
+.blogs {
+  margin: 0;
+  padding: 1em;
+  float: left;
+}
+
+.blog-outline {
+  border: 2px solid #333333;
+  padding: .5em;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.blog-icons {
+  margin: 0;
+}
+
+.blog-username p {
+  float: left;
+}
