@@ -9,3 +9,7 @@
 .orange-back{
     background-color: $orange;
 }
+
+.button{
+    @include button($blue)
+        }

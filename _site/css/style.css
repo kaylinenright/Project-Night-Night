@@ -1997,3 +1997,18 @@ td, th, fieldset {
 .orange-back {
   background-color: #f16824;
 }
+
+.button {
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 18px;
+  color: #00a5a9;
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid #00a5a9;
+  color: #00a5a9;
+  padding: 1em;
+}
+
+.button:hover {
+  background-color: #00a5a9;
+}
