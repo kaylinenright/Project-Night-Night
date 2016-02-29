@@ -39,7 +39,7 @@
 }
 
 @mixin button($color) {
-  @include header;
+  @include header($color);
   list-style-type: none;
   text-decoration: none;
   border: 2px solid $color;

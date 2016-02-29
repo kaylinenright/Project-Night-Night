@@ -1903,6 +1903,8 @@ td, th, fieldset {
 
 .start-btn {
   font-family: "Lato", helvetica, sans-serif;
+  font-size: 18px;
+  color: #00a5a9;
   list-style-type: none;
   text-decoration: none;
   border: 2px solid #00a5a9;
@@ -1982,4 +1984,16 @@ td, th, fieldset {
   padding: 1em;
   font-size: 1em;
   margin-top: 1em;
+}
+
+.yellow-back {
+  background-color: #f5c715;
+}
+
+.grey-back {
+  background-color: #333333;
+}
+
+.orange-back {
+  background-color: #f16824;
 }
