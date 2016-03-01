@@ -1478,6 +1478,19 @@ td, th, fieldset {
   width: 100%;
 }
 
+.map {
+    height: 20em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -141px;
+    width: 100%;  
+    position: absolute;
+}
+
+.map-info {
+    position: relative;
+}
+
 @media only screen and (min-width: 25em) {
   .billboard {
     background-position: 0px 100%;
