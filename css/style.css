@@ -1487,9 +1487,10 @@ td, th, fieldset {
     position: relative;
 }
 
-.map-info{
+.map-info {
     position: absolute;
 }
+
 @media only screen and (min-width: 25em) {
   .billboard {
     background-position: 0px 100%;
