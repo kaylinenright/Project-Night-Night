@@ -1484,11 +1484,11 @@ td, th, fieldset {
     background-repeat: no-repeat;
     background-position: -141px;
     width: 100%;  
-    position: relative;
+    position: absolute;
 }
 
 .map-info {
-    position: absolute;
+    position: relative;
 }
 
 @media only screen and (min-width: 25em) {
