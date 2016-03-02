@@ -171,3 +171,22 @@ body {
 .p-black {
     color: $black;
 }
+
+
+
+
+
+.second-btn {
+	padding-top: 1em;
+	 @media only screen and (min-width: 25em) {
+		padding-top: 1em;
+	}
+	@media only screen and (min-width: 60em) {
+		padding-top: 1.5m;
+	}
+		@media only screen and (min-width: 90em) {
+		padding-top: 2em;
+	}
+}
+
+

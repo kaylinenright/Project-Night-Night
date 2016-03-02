@@ -226,6 +226,28 @@ body {
   color: #000;
 }
 
+.second-btn {
+  padding-top: 1em;
+}
+
+@media only screen and (min-width: 25em) {
+  .second-btn {
+    padding-top: 1em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .second-btn {
+    padding-top: 1.5m;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .second-btn {
+    padding-top: 2em;
+  }
+}
+
 /*
   Gridifier || Code released under the UNLICENSE
   http://thomasjbradley.github.io/gridifier/#xs,4,0,0,0;s,4,25,0,0;m,8,38,1,1;l,8,60,1,1
@@ -2077,10 +2099,15 @@ td, th, fieldset {
   border: 2px solid #00a5a9;
   color: #00a5a9;
   padding: 1em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .start-btn:hover {
   background-color: #00a5a9;
+  color: white;
 }
 
 .start-container {
@@ -2174,8 +2201,17 @@ td, th, fieldset {
   border: 2px solid #00a5a9;
   color: #00a5a9;
   padding: 1em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button:hover {
   background-color: #00a5a9;
+  color: white;
+}
+
+.about-info {
+  padding: 1.5em;
 }
