@@ -61,6 +61,171 @@ body {
   top: 0;
 }
 
+@media only screen and (min-width: 25em) {
+  .padding-side {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .padding-side {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .padding-side {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .padding-side {
+    padding: 0 15% 0 15%;
+  }
+}
+
+@media only screen and (min-width: 25em) {
+  .padding-t-b {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .padding-t-b {
+    padding-top: 8em;
+    padding-bottom: 8em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .padding-t-b {
+    padding-top: 8em;
+    padding-bottom: 8em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .padding-t-b {
+    padding: 0 20% 0 20%;
+  }
+}
+
+.h1-blue {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #00a5a9;
+}
+
+.h1-gray {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.h1-yellow {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #f5c715;
+}
+
+.h1-orange {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #f16824;
+}
+
+.h1-white {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.h1-black {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.h2-blue {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #00a5a9;
+}
+
+.h2-gray {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.h2-yellow {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #f5c715;
+}
+
+.h2-orange {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #f16824;
+}
+
+.h2-white {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.h2-black {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.h3-blue {
+  margin-bottom: 1.5em;
+  color: #00a5a9;
+}
+
+.h3-gray {
+  margin-bottom: 1.5em;
+  color: #333333;
+}
+
+.h3-yellow {
+  margin-bottom: 1.5em;
+  color: #f5c715;
+}
+
+.h3-orange {
+  margin-bottom: 1.5em;
+  color: #f16824;
+}
+
+.h3-white {
+  margin-bottom: 1.5em;
+  color: #fff;
+}
+
+.h3-black {
+  margin-bottom: 1.5em;
+  color: #000;
+}
+
+.p-blue {
+  color: #00a5a9;
+}
+
+.p-white {
+  color: #fff;
+}
+
+.p-black {
+  color: #000;
+}
+
 /*
   Gridifier || Code released under the UNLICENSE
   http://thomasjbradley.github.io/gridifier/#xs,4,0,0,0;s,4,25,0,0;m,8,38,1,1;l,8,60,1,1
@@ -887,6 +1052,7 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.3rem;
+  font-family: "Lato", helvetica, sans-serif;
 }
 
 .yotta {
@@ -902,6 +1068,7 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.3830rem;
   line-height: 1.9500rem;
+  font-family: "Lato", helvetica, sans-serif;
 }
 
 h2, .peta {
@@ -1476,19 +1643,6 @@ td, th, fieldset {
   background-repeat: no-repeat;
   background-position: -141px;
   width: 100%;
-}
-
-.map {
-    height: 20em;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: -141px;
-    width: 100%;  
-    position: absolute;
-}
-
-.map-info {
-    position: relative;
 }
 
 @media only screen and (min-width: 25em) {
