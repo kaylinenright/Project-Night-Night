@@ -38,7 +38,6 @@
   color: $color;
 }
 
-
 @mixin button($color) {
   @include header($color);
   list-style-type: none;
@@ -80,19 +79,19 @@ padding: 0 10% 0 10%;
 
 
 @mixin padding-small-t-b {
-padding-top: 6em;
-padding-bottom: 6em;
+padding-top: 3em;
+padding-bottom: 3em;
 }
 
 @mixin padding-medium-t-b {
-padding-top: 8em;
-padding-bottom: 8em;
+padding-top: 4em;
+padding-bottom: 4em;
 }
 
 
 @mixin padding-large-t-b {
-padding-top: 8em;
-padding-bottom: 8em;    
+padding-top: 4em;
+padding-bottom: 4em;    
 }
 
 
