@@ -46,3 +46,147 @@ body {
 	}
  }
 }
+
+
+
+
+.padding-side {
+        @media only screen and (min-width: 25em) {
+            @include padding-small;
+ 
+        }
+        @media only screen and (min-width: 38em) {
+            @include padding-medium;
+        }
+    
+        @media only screen and (min-width: 60em) {
+             @include padding-large;
+        }
+    
+        @media only screen and (min-width: 90em) {
+            @include padding-xl;
+            
+        }
+}
+
+.padding-t-b {
+        @media only screen and (min-width: 25em) {
+            @include padding-small-t-b;
+ 
+        }
+        @media only screen and (min-width: 38em) {
+            @include padding-medium-t-b;
+        }
+    
+        @media only screen and (min-width: 60em) {
+             @include padding-large-t-b;
+        }
+    
+        @media only screen and (min-width: 90em) {
+            @include padding-xl-t-b;
+            
+        }
+}
+
+.h1-blue {
+    @include h1 ($blue);
+}
+
+.h1-gray {
+    @include h1 ($gray);
+}
+
+.h1-yellow {
+    @include h1 ($yellow);
+}
+
+.h1-orange {
+    @include h1 ($orange);
+}
+
+.h1-white {
+    @include h1 ($white);
+}
+
+.h1-black {
+    @include h1 ($black);
+}
+
+.h2-blue {
+    @include h2 ($blue);
+}
+
+.h2-gray {
+    @include h2 ($gray);
+}
+
+.h2-yellow {
+    @include h2 ($yellow);
+}
+
+.h2-orange {
+    @include h2 ($orange);
+}
+
+.h2-white {
+    @include h2 ($white);
+}
+
+.h2-black {
+    @include h2 ($black);
+}
+
+.h3-blue {
+    @include h3 ($blue);
+}
+
+.h3-gray {
+    @include h3 ($gray);
+}
+
+.h3-yellow {
+    @include h3 ($yellow);
+}
+
+.h3-orange {
+    @include h3 ($orange);
+}
+
+.h3-white {
+    @include h3 ($white);
+}
+
+.h3-black {
+    @include h3 ($black);
+}
+
+.p-blue {
+    color: $blue;
+}
+
+.p-white {
+    color: $white;
+}
+
+.p-black {
+    color: $black;
+}
+
+
+
+
+
+.second-btn {
+	padding-top: 1em;
+	 @media only screen and (min-width: 25em) {
+		padding-top: 1em;
+	}
+	@media only screen and (min-width: 60em) {
+		padding-top: 1.5m;
+	}
+		@media only screen and (min-width: 90em) {
+		padding-top: 2em;
+	}
+}
+
+
