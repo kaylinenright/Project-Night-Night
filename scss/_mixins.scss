@@ -34,10 +34,9 @@
 
 @mixin header($color) {
   font-family: $text;
-  font-size: 18px;
+  font-size: 1em;
   color: $color;
 }
-
 
 @mixin button($color) {
   @include header($color);
@@ -46,13 +45,15 @@
   border: 2px solid $color;
   color: $color;
   padding: 1em;
-    margin-top: 2em;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 700;
   &:hover {
-    background-color: $color;
-    color: white;
+    background-color: rgba($color, .8);
+    color: $white;
   }
 }
 
@@ -80,19 +81,19 @@ padding: 0 10% 0 10%;
 
 
 @mixin padding-small-t-b {
-padding-top: 6em;
-padding-bottom: 6em;
+padding-top: 3em;
+padding-bottom: 3em;
 }
 
 @mixin padding-medium-t-b {
-padding-top: 8em;
-padding-bottom: 8em;
+padding-top: 4em;
+padding-bottom: 4em;
 }
 
 
 @mixin padding-large-t-b {
-padding-top: 8em;
-padding-bottom: 8em;    
+padding-top: 4em;
+padding-bottom: 4em;    
 }
 
 
@@ -102,21 +103,23 @@ padding-bottom: 8em;
 }
 
 @mixin h1 ($color) {
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
     text-transform: uppercase;
     color: $color;
-
 }
 
 @mixin h2 ($color) {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     text-transform: uppercase;
     color: $color;
-
 }
 
 @mixin h3 ($color) {
-    margin-bottom: 1.5em;
+    margin-bottom: .5em;
     color: $color;
+}
 
+@mixin p {
+    font-size: 1em;
+    line-height: 1.5em;
 }
