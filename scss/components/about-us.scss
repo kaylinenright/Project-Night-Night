@@ -1,0 +1,19 @@
+.yellow-back {
+    background-color: $yellow;
+}
+
+.grey-back{
+    background-color: $gray;
+}
+
+.orange-back{
+    background-color: $orange;
+}
+
+.button{
+    @include button($blue)
+        }
+
+.about-info { 
+   padding: 1.5em;   
+}

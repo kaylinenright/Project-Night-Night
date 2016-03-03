@@ -23,12 +23,7 @@
 }
 
 .start-btn {
-	  background-color: $blue;
-  list-style-type: none;
-  text-decoration: none;
-  color: white;
-  font-family: sans-serif;
-  padding: 1em 1.75em;
+  @include button($blue);
 
 }
 

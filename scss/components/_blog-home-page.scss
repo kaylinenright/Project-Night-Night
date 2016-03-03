@@ -1,0 +1,26 @@
+.blogs {
+	margin: 0;
+	padding: 1em;
+	float: left;
+}
+
+.blog-outline {
+	border: 1px solid $gray;
+	padding: .5em;
+	margin: -.5em;
+
+}
+
+.blog-image {
+	width: 100%;
+}
+
+.blog-icons {
+	margin: 0;
+}
+
+.blog-username {
+	p {
+		float: left;
+	}
+}
