@@ -1,11 +1,11 @@
-- title: Dwarf
-  folder: dwarf
-  content: 'A **dwarf planet** is a planetary-mass object that is neither a planet nor a satellite.'
+- title: Story 1
+  image: pnn2.pjg
+  content: "This is the story for the first news article"
 
-- title: Terrestrial
-  folder: terrestrial
-  content: 'A **terrestrial planet**, **telluric planet** or **rocky planet** is a planet that is composed primarily of silicate rocks or metals.'
+- title: Story 2
+  image: pnn2.pjg
+  content: "This is the story for the first news article"
 
-- title: Gas Giant
-  folder: gas-giant
-  content: 'A **gas giant** is a large planet that is not primarily composed of rock or other solid matter.'
+- title: Story 3
+  image: pnn2.pjg
+  content: "This is the story for the first news article"
