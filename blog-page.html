@@ -1,16 +1,43 @@
 ---
 layout: header-footer
 meta: Blog/News
+billboardClass: new-billboard
 ---
 
-<div >
-	{% include billboard.html %}
+
+<div>
+{% include billboard.html %}
 </div>
+
+{% for news in page.news %}
+  {{ page.news-title }}
+{% endfor %}
+
+
+
+
+<!-- <main>
+	<div class="grid news-section">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+		{% for news in site.data.news %}
+  <h2>{{news.news-title}}</h2>
+  <dl>
+    <dt>Diet</dt>
+    <dd>{{site.diet}}</dd>
+    <dt>Size</dt>
+    <dd>{{site.size}}</dd>
+  </dl>
+{% endfor %}
+		</div>
+	</div>
+</main> -->
+
+<!--
 
 <main>
 	<div class="grid news-section">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-	{% if page.news-title %}
+	{% if site.data.news %}
 		<h4>{{page.news-title}}</h4>
 		<p>{{page.news-story}}</p>
 	{% endif %}
@@ -32,4 +59,4 @@ meta: Blog/News
 	</div>
 </div>
 
-</main>
+</main> -->

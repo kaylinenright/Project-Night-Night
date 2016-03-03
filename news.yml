@@ -1,0 +1,23 @@
+---
+layout: header-footer
+---
+
+-	news-title: Test
+	content: This is a paragraph
+
+-	news-title: Test
+	content: This is a paragraph
+
+-	news-title: Test
+	content: This is a paragraph
+
+
+- name: Tyrannosaurus
+  diet: Meat
+  size: Big
+- name: Stegosaurus
+  diet: Plants
+  size: Medium
+- name: Velociraptor
+  diet: Meat
+  size: Small

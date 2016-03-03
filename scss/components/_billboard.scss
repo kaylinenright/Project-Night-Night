@@ -24,9 +24,36 @@
 	}
 }
 
-.conent-header {
+.new-billboard {
+		z-index: -1;
+	height: 29em;
+	background-image: url(../img/pnn-billboard.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -141px;
+	width: 100%;
+	@media only screen and (min-width: 25em) {
+		background-position: 0px 100%;
+		height: 500px;
+	}
+	@media only screen and (min-width: 38em) {
+		background-position: 0px 100%;
+		height: 650px;
+	}
+	@media only screen and (min-width: 60em) {
+		background-position: 0px 100%;
+		height: 750px;
+	}
+	@media only screen and (min-width: 90em) {
+		background-position: 0px 0px;
+		height: 1000px;
+	}
+}
+
+
+.content-header {
 	position: relative;
-	top: 6em;
+	top: 5em;
 	padding: 1em;
 	@media only screen and (min-width: 25em) {
 		padding-top: 3em;
@@ -67,3 +94,5 @@
 		padding-top: 3em;
 	}
 }
+
+
