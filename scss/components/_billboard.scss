@@ -6,6 +6,8 @@
 	background-repeat: no-repeat;
 	background-position: -141px;
 	width: 100%;
+	position: relative;
+	background-color: $blue;
 	@media only screen and (min-width: 25em) {
 		background-position: 0px 100%;
 		height: 500px;
@@ -24,34 +26,64 @@
 	}
 }
 
-.conent-header {
-	position: relative;
-	top: 6em;
+.content-header {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba($white, .5);
 	padding: 1em;
+	padding-top: 6em;
 	@media only screen and (min-width: 25em) {
-		padding-top: 3em;
+		padding-top: 9em;
 	}
 	@media only screen and (min-width: 38em) {
-		padding-top: 4.5em;
+		padding-top: 10.5em;
 	}
 	@media only screen and (min-width: 60em) {
-		padding-top: 8.5em;
+		padding-top: 14.5em;
 	}
 	@media only screen and (min-width: 90em) {
-		padding-top: 6em;
+		padding-top: 12em;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		text-transform: uppercase;
+		color: $gray;
+		font-weight: 900;
+		margin-bottom: .5em;
+	}
+
+	p {
+		font-size: 1em;
+		color: $blue;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: 1em;
+		color: $gray;
+		padding-top: .5em;
 	}
 }
 
 
 .learn-more {
-  background-color: $blue;
+  background-color: rgba($blue, .7);
   list-style-type: none;
   text-decoration: none;
-  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  color: $white;
   font-family: sans-serif;
   padding: 1em 1.75em;
+  border: 2px solid $blue;
   &:hover {
-  	background-color: $orange;
+  	background-color: $white;
    }
 }
 

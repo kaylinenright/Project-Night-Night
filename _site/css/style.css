@@ -1665,6 +1665,8 @@ td, th, fieldset {
   background-repeat: no-repeat;
   background-position: -141px;
   width: 100%;
+  position: relative;
+  background-color: #00a5a9;
 }
 
 @media only screen and (min-width: 25em) {
@@ -1695,47 +1697,77 @@ td, th, fieldset {
   }
 }
 
-.conent-header {
-  position: relative;
-  top: 6em;
+.content-header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 1em;
+  padding-top: 6em;
 }
 
 @media only screen and (min-width: 25em) {
-  .conent-header {
-    padding-top: 3em;
+  .content-header {
+    padding-top: 9em;
   }
 }
 
 @media only screen and (min-width: 38em) {
-  .conent-header {
-    padding-top: 4.5em;
+  .content-header {
+    padding-top: 10.5em;
   }
 }
 
 @media only screen and (min-width: 60em) {
-  .conent-header {
-    padding-top: 8.5em;
+  .content-header {
+    padding-top: 14.5em;
   }
 }
 
 @media only screen and (min-width: 90em) {
-  .conent-header {
-    padding-top: 6em;
+  .content-header {
+    padding-top: 12em;
   }
 }
 
+.content-header h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 900;
+  margin-bottom: .5em;
+}
+
+.content-header p {
+  font-size: 1em;
+  color: #00a5a9;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.content-header h3 {
+  font-size: 1em;
+  color: #333333;
+  padding-top: .5em;
+}
+
 .learn-more {
-  background-color: #00a5a9;
+  background-color: rgba(0, 165, 169, 0.7);
   list-style-type: none;
   text-decoration: none;
-  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  color: #fff;
   font-family: sans-serif;
   padding: 1em 1.75em;
+  border: 2px solid #00a5a9;
 }
 
 .learn-more:hover {
-  background-color: #f16824;
+  background-color: #fff;
 }
 
 .donate-btn {
