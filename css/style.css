@@ -2224,3 +2224,30 @@ td, th, fieldset {
 .email:hover {
   color: #f16824;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.register {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+label {
+  display: block;
+  font-family: "Lato", helvetica, sans-serif;
+  size: 100%;
+}
+
+input + label {
+  display: inline-block;
+}
+
+.sign-up {
+  width: 100%;
+}
+
+.sign-up:focus {
+  outline: 2px solid #00a5a9;
+}
