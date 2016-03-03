@@ -10,10 +10,14 @@
     background-color: $orange;
 }
 
+.blue-back {
+    background-color: $blue;
+}
+
 .button{
     @include button($blue)
         }
 
-.about-info { 
-   padding: 1.5em;   
-}
+.email {
+    @include email($orange)
+        }

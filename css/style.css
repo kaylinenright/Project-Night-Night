@@ -2192,6 +2192,10 @@ td, th, fieldset {
   background-color: #f16824;
 }
 
+.blue-back {
+  background-color: #00a5a9;
+}
+
 .button {
   font-family: "Lato", helvetica, sans-serif;
   font-size: 18px;
@@ -2212,6 +2216,11 @@ td, th, fieldset {
   color: white;
 }
 
-.about-info {
-  padding: 1.5em;
+.email {
+  text-decoration: none;
+  color: #00a5a9;
+}
+
+.email:hover {
+  color: #f16824;
 }

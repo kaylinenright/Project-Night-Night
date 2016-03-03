@@ -120,3 +120,14 @@ padding-bottom: 8em;
     color: $color;
 
 }
+
+
+@mixin email ($color) {
+    text-decoration: none;
+    color: $blue;
+    &:hover {
+    color: $color;
+  }
+    
+
+}
