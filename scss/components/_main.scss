@@ -161,15 +161,23 @@ body {
 }
 
 .p-blue {
+    @include p;
     color: $blue;
 }
 
 .p-white {
+    @include p;
     color: $white;
 }
 
 .p-black {
+    @include p;
     color: $black;
+}
+
+.p-grey {
+    @include p;
+    color: $gray;
 }
 
 

@@ -215,15 +215,27 @@ body {
 }
 
 .p-blue {
+  font-size: 1em;
+  line-height: 1.5em;
   color: #00a5a9;
 }
 
 .p-white {
+  font-size: 1em;
+  line-height: 1.5em;
   color: #fff;
 }
 
 .p-black {
+  font-size: 1em;
+  line-height: 1.5em;
   color: #000;
+}
+
+.p-grey {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333333;
 }
 
 .second-btn {
@@ -2124,7 +2136,7 @@ td, th, fieldset {
 
 .start-btn {
   font-family: "Lato", helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   color: #00a5a9;
   list-style-type: none;
   text-decoration: none;
@@ -2135,11 +2147,13 @@ td, th, fieldset {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .start-btn:hover {
-  background-color: #00a5a9;
-  color: white;
+  background-color: rgba(0, 165, 169, 0.8);
+  color: #fff;
 }
 
 .start-container {
@@ -2225,7 +2239,7 @@ td, th, fieldset {
 
 .button {
   font-family: "Lato", helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   color: #00a5a9;
   list-style-type: none;
   text-decoration: none;
@@ -2236,11 +2250,13 @@ td, th, fieldset {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .button:hover {
-  background-color: #00a5a9;
-  color: white;
+  background-color: rgba(0, 165, 169, 0.8);
+  color: #fff;
 }
 
 .about-info {
