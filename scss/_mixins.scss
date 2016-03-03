@@ -101,21 +101,21 @@ padding-bottom: 4em;
 }
 
 @mixin h1 ($color) {
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
     text-transform: uppercase;
     color: $color;
 
 }
 
 @mixin h2 ($color) {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     text-transform: uppercase;
     color: $color;
 
 }
 
 @mixin h3 ($color) {
-    margin-bottom: 1.5em;
+    margin-bottom: .5em;
     color: $color;
 
 }
