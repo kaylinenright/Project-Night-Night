@@ -102,6 +102,7 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.3rem;
+    font-family: $text;
 }
 
 .yotta {
@@ -117,6 +118,7 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.3830rem;
   line-height: 1.9500rem;
+    font-family: $text
 }
 
 h2, .peta {

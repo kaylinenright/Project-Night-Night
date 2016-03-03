@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700,900);
 @-moz-viewport {
   width: device-width;
   scale: 1;
@@ -58,6 +59,193 @@ body {
 
 .skip-links a:focus {
   top: 0;
+}
+
+@media only screen and (min-width: 25em) {
+  .padding-side {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .padding-side {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .padding-side {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .padding-side {
+    padding: 0 15% 0 15%;
+  }
+}
+
+@media only screen and (min-width: 25em) {
+  .padding-t-b {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .padding-t-b {
+    padding-top: 8em;
+    padding-bottom: 8em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .padding-t-b {
+    padding-top: 8em;
+    padding-bottom: 8em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .padding-t-b {
+    padding: 0 20% 0 20%;
+  }
+}
+
+.h1-blue {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #00a5a9;
+}
+
+.h1-gray {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.h1-yellow {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #f5c715;
+}
+
+.h1-orange {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #f16824;
+}
+
+.h1-white {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.h1-black {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.h2-blue {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #00a5a9;
+}
+
+.h2-gray {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.h2-yellow {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #f5c715;
+}
+
+.h2-orange {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #f16824;
+}
+
+.h2-white {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.h2-black {
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.h3-blue {
+  margin-bottom: 1.5em;
+  color: #00a5a9;
+}
+
+.h3-gray {
+  margin-bottom: 1.5em;
+  color: #333333;
+}
+
+.h3-yellow {
+  margin-bottom: 1.5em;
+  color: #f5c715;
+}
+
+.h3-orange {
+  margin-bottom: 1.5em;
+  color: #f16824;
+}
+
+.h3-white {
+  margin-bottom: 1.5em;
+  color: #fff;
+}
+
+.h3-black {
+  margin-bottom: 1.5em;
+  color: #000;
+}
+
+.p-blue {
+  color: #00a5a9;
+}
+
+.p-white {
+  color: #fff;
+}
+
+.p-black {
+  color: #000;
+}
+
+.second-btn {
+  padding-top: 1em;
+}
+
+@media only screen and (min-width: 25em) {
+  .second-btn {
+    padding-top: 1em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .second-btn {
+    padding-top: 1.5m;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .second-btn {
+    padding-top: 2em;
+  }
 }
 
 /*
@@ -886,6 +1074,7 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.3rem;
+  font-family: "Lato", helvetica, sans-serif;
 }
 
 .yotta {
@@ -901,6 +1090,7 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.3830rem;
   line-height: 1.9500rem;
+  font-family: "Lato", helvetica, sans-serif;
 }
 
 h2, .peta {
@@ -1901,12 +2091,23 @@ td, th, fieldset {
 }
 
 .start-btn {
-  background-color: #00a5a9;
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 18px;
+  color: #00a5a9;
   list-style-type: none;
   text-decoration: none;
+  border: 2px solid #00a5a9;
+  color: #00a5a9;
+  padding: 1em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.start-btn:hover {
+  background-color: #00a5a9;
   color: white;
-  font-family: sans-serif;
-  padding: 1em 1.75em;
 }
 
 .start-container {
@@ -1945,8 +2146,9 @@ td, th, fieldset {
 }
 
 .blog-outline {
-  border: 2px solid #333333;
+  border: 1px solid #333333;
   padding: .5em;
+  margin: -.5em;
 }
 
 .blog-image {
@@ -1959,4 +2161,57 @@ td, th, fieldset {
 
 .blog-username p {
   float: left;
+}
+
+.news-section div {
+  padding: 1em;
+}
+
+.blog-load-more {
+  width: 100%;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.blog-load-more button {
+  border: none;
+  padding: 1em;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.yellow-back {
+  background-color: #f5c715;
+}
+
+.grey-back {
+  background-color: #333333;
+}
+
+.orange-back {
+  background-color: #f16824;
+}
+
+.button {
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 18px;
+  color: #00a5a9;
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid #00a5a9;
+  color: #00a5a9;
+  padding: 1em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover {
+  background-color: #00a5a9;
+  color: white;
+}
+
+.about-info {
+  padding: 1.5em;
 }
