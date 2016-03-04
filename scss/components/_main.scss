@@ -183,6 +183,12 @@ img {
     color: $blue;
 }
 
+.p-orange {
+    @include p;
+    color: $orange;
+}
+
+
 .p-white {
     @include p;
     color: $white;
