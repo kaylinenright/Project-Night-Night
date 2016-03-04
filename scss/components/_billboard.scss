@@ -93,28 +93,7 @@
 	}
 }
 
-//
-//
-//inside page billboard stuff
 
-.new-billboard {
- 	background-size: cover;
- 	background-repeat: no-repeat;
- 	width: 100%;
- 	height: 200px;
- 	@media only screen and (min-width: 25em) {
- 		height: 350px;
- 	}
- 	@media only screen and (min-width: 38em) {
- 		height: 450px;
- 	}
- 	@media only screen and (min-width: 60em) {
- 		height: 550px;
- 	}
- 	@media only screen and (min-width: 90em) {
- 		height: 700px;
- 	}
- }
 // .new-billboard {
 // 	background-image: url('{{ site.baseurl }}/img/{{page.img}}');;
 // 	background-size: cover;
@@ -147,44 +126,26 @@
 // 	color: rgba( $white, .8);
 // }
 
-.billboard-involve {
-	background-image: url(../img/get-involved.jpg);
-	background-position: -450px;
+.billboard-about-us {
+	background-image: url(../img/about-us.jpg);
+	background-size: 200%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	height: 15em;
+ 	position: relative;
+ 	background-position: -150px 0px;
 	@media only screen and (min-width: 25em) {
-		background-position: -300px;
 	}
 	@media only screen and (min-width: 38em) {
-		background-position: -370px;
 	}
 	@media only screen and (min-width: 60em) {
-		background-position: -170px;
 	}
 	@media only screen and (min-width: 90em) {
-		background-position: -170px;
-	height: 30em;
-	background-image: url(../img/get-involved.jpg);
-	background-position: -450px;
-	background-size: cover;
-	background-repeat: no-repeat;
 	}
-	@media only screen and (min-width: 25em) {
-		background-position: -300px;
-		height: 27em;
-	}
-	@media only screen and (min-width: 38em) {
-		background-position: -370px;
-		height: 35em;
-	}
-	@media only screen and (min-width: 60em) {
-		background-position: -170px;
-		height: 38em;
-	}
-	@media only screen and (min-width: 90em) {
-		background-position: -170px;
-		height: 38em;
-	}
+}
 	.text-push-down {
-		padding-top: 6em;
+		text-align: center;
+		padding-top: 3.5em;
 		@media only screen and (min-width: 25em) {
 			padding-top: 6em;
 		}
@@ -198,8 +159,154 @@
 			padding-top: 8em;
 		}
 	}
-}
 
+///
+///
+
+.billboard-involve {
+	background-image: url(../img/get-involved.jpg);
+	background-size: 200%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	height: 15em;
+ 	position: relative;
+ 	background-position: -150px 0px;
+	@media only screen and (min-width: 25em) {
+	}
+	@media only screen and (min-width: 38em) {
+	}
+	@media only screen and (min-width: 60em) {
+	}
+	@media only screen and (min-width: 90em) {
+	}
+}
+	.text-push-down {
+		text-align: center;
+		padding-top: 3.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 6em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 7em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 8em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 8em;
+		}
+	}
+
+//
+//
+
+.billboard-contact-us {
+	background-image: url(../img/contact-us.jpg);
+	background-size: 200%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	height: 15em;
+ 	position: relative;
+ 	background-position: -150px 0px;
+	@media only screen and (min-width: 25em) {
+	}
+	@media only screen and (min-width: 38em) {
+	}
+	@media only screen and (min-width: 60em) {
+	}
+	@media only screen and (min-width: 90em) {
+	}
+}
+	.text-push-down {
+		text-align: center;
+		padding-top: 3.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 6em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 7em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 8em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 8em;
+		}
+	}
+
+//
+//
+
+.billboard-blog-page {
+	background-image: url(../img/news-press.jpg);
+	background-size: 200%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	height: 15em;
+ 	position: relative;
+ 	background-position: -150px 0px;
+	@media only screen and (min-width: 25em) {
+	}
+	@media only screen and (min-width: 38em) {
+	}
+	@media only screen and (min-width: 60em) {
+	}
+	@media only screen and (min-width: 90em) {
+	}
+}
+	.text-push-down {
+		text-align: center;
+		padding-top: 3.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 6em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 7em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 8em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 8em;
+		}
+	}
+
+//
+//
+
+.billboard-resources {
+	background-image: url(../img/resources.jpg);
+	background-size: 200%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	height: 15em;
+ 	position: relative;
+ 	background-position: -150px 0px;
+	@media only screen and (min-width: 25em) {
+	}
+	@media only screen and (min-width: 38em) {
+	}
+	@media only screen and (min-width: 60em) {
+	}
+	@media only screen and (min-width: 90em) {
+	}
+}
+	.text-push-down {
+		text-align: center;
+		padding-top: 3.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 6em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 7em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 8em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 8em;
+		}
+	}
 // .billboard-involve {
 // 	background-image: url(.../img/{{page.img);
 // }
