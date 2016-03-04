@@ -1,3 +1,7 @@
+//
+//
+//home page background elements
+
 .billboard {
 	height: 29em;
 	background-image: url(../img/pnn-billboard.jpg);
@@ -24,32 +28,6 @@
 		height: 1000px;
 	}
 }
-
-.new-billboard {
-	height: 29em;
-	background-image: url(../img/pnn-billboard.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: -141px;
-	width: 100%;
-	@media only screen and (min-width: 25em) {
-		background-position: 0px 100%;
-		height: 500px;
-	}
-	@media only screen and (min-width: 38em) {
-		background-position: 0px 100%;
-		height: 650px;
-	}
-	@media only screen and (min-width: 60em) {
-		background-position: 0px 100%;
-		height: 750px;
-	}
-	@media only screen and (min-width: 90em) {
-		background-position: 0px 0px;
-		height: 1000px;
-	}
-}
-
 .content-header {
 	position: absolute;
 	top: 0;
@@ -124,4 +102,39 @@
 	}
 }
 
+//
+//
+//inside page billboard stuff
 
+.new-billboard {
+	background-image: url('{{ site.baseurl }}/img/{{page.img}}');;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+	@media only screen and (min-width: 25em) {
+		background-position: 0px 100%;
+		height: 350px;
+	}
+	@media only screen and (min-width: 38em) {
+		background-position: 0px 100%;
+		height: 450px;
+	}
+	@media only screen and (min-width: 60em) {
+		background-position: 0px 100%;
+		height: 550px;
+	}
+	@media only screen and (min-width: 90em) {
+		background-position: 0px 0px;
+		height: 700px;
+	}
+	h1 {
+		padding-top: 3em;
+	}
+}
+
+.arrow {
+	font-size: 3em;
+	text-align: center;
+	color: rgba( $white, .8);
+}
