@@ -1,5 +1,4 @@
 .billboard {
-	z-index: -1;
 	height: 29em;
 	background-image: url(../img/pnn-billboard.jpg);
 	background-size: cover;
@@ -27,7 +26,6 @@
 }
 
 .new-billboard {
-		z-index: -1;
 	height: 29em;
 	background-image: url(../img/pnn-billboard.jpg);
 	background-size: cover;
@@ -52,7 +50,10 @@
 	}
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> gh-pages
 .content-header {
 	position: absolute;
 	top: 0;
