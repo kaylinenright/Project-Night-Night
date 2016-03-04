@@ -26,7 +26,6 @@
 	}
 }
 
-<<<<<<< HEAD
 .new-billboard {
 		z-index: -1;
 	height: 29em;
@@ -55,17 +54,12 @@
 
 
 .content-header {
-	position: relative;
-	top: 5em;
-=======
-.content-header {
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	width: 100%;
 	height: 100%;
 	background-color: rgba($white, .5);
->>>>>>> gh-pages
 	padding: 1em;
 	padding-top: 6em;
 	@media only screen and (min-width: 25em) {
