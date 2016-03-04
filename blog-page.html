@@ -2,7 +2,7 @@
 layout: header-footer
 meta: Blog/News
 billboardClass: new-billboard
-
+current: news
 ---
 
 
@@ -13,6 +13,7 @@ billboardClass: new-billboard
 
 <div class="grid news-section">
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+	test
 	  {% for news in site.data.news %}
   	<img src="{{site.baseurl}}/img/{{image}}" alt="{{page.news-img-1}}">
   	<h4>{{news.title}}</h4>
