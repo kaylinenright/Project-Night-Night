@@ -32,9 +32,9 @@
 	text-align: center;
 }
 
-.volunteer {
-	background-color: $yellow;
-}
+// .volunteer {
+// 	// background-color:
+// }
 
 .row-img {
 
@@ -42,11 +42,11 @@
 }
 
 .birthday {
-	background-color: $gray;
+	background-color: lighten($gray, 70%);
 }
 
 .marketing {
-	background-color: red;
+	background-color: lighten($gray, 70%);
 }
 
 
