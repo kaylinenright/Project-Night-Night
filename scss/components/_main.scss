@@ -57,38 +57,38 @@ img {
 .padding-side {
         @media only screen and (min-width: 25em) {
             @include padding-small;
- 
+
         }
         @media only screen and (min-width: 38em) {
             @include padding-medium;
         }
-    
+
         @media only screen and (min-width: 60em) {
              @include padding-large;
         }
-    
+
         @media only screen and (min-width: 90em) {
             @include padding-xl;
-            
+
         }
 }
 
 .padding-t-b {
         @media only screen and (min-width: 25em) {
             @include padding-small-t-b;
- 
+
         }
         @media only screen and (min-width: 38em) {
             @include padding-medium-t-b;
         }
-    
+
         @media only screen and (min-width: 60em) {
              @include padding-large-t-b;
         }
-    
+
         @media only screen and (min-width: 90em) {
             @include padding-xl-t-b;
-            
+
         }
 }
 
@@ -190,15 +190,6 @@ img {
 
 .second-btn {
 	padding-top: 1em;
-	 @media only screen and (min-width: 25em) {
-		padding-top: 1em;
-	}
-	@media only screen and (min-width: 60em) {
-		padding-top: 1.5m;
-	}
-		@media only screen and (min-width: 90em) {
-		padding-top: 2em;
-	}
 }
 
 
