@@ -47,7 +47,7 @@
   z-index: 1;
 	@media only screen and (min-width: 60em) {
 		padding-top: 0px;
-		background-color: rgba(255, 255, 255, 0.5);
+		background-color: rgba(255, 255, 255, 0.8);
 		text-align: right;
 		right:30px;
 		height: 17vh;
@@ -65,7 +65,7 @@
   .regular{
   	@media only screen and (min-width: 60em) {
   		display: inline-block;
-  		padding: 0.75em  .75em;
+  		padding: 1.45em  .75em;
 		}
 		@media only screen and (min-width: 90em) {
 		padding: 1.5em .75em;
