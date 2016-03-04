@@ -1,7 +1,7 @@
 .map-sec {
-		background-image: url(../img/map.png);
+		background-image: url(../img/usa-map.jpg);
 		height: 520px;
-		background-position: -620px;
+		background-position: 0px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		padding-top: 6em;
@@ -20,7 +20,7 @@
 		}
 		@media only screen and (min-width: 90em) {
 			padding-top: 7em;
-			background-position: -350px;
+			background-position: 0px;
 			height: 500px;
 		}
 	}
