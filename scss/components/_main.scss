@@ -89,6 +89,23 @@ img {
         }
 }
 
+.gutter-billboard {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    @media only screen and (min-width: 25em) {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+    @media only screen and (min-width: 60em) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+   @media only screen and (min-width: 90em) {
+        padding-left: 6rem;
+        padding-right: 6rem
+    }
+}
+
 .h1-blue {
     @include h1 ($blue);
 }
@@ -180,10 +197,6 @@ img {
     @include p;
     color: $gray;
 }
-
-
-
-
 
 .second-btn {
 	padding-top: 1em;

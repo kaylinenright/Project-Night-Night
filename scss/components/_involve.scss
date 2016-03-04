@@ -1,31 +1,23 @@
-<<<<<<< HEAD
-.billboard-title {
-	padding-top: 8em;
-}
+// .billboard-title {
+// 	padding-top: 8em;
+// }
 
-.arrow {
-	padding: .5em;
-	font-size: 3em;
-	text-align: center;
-=======
-.billboard-involve {
-	height: 29em;
-	background-color: $gray;
->>>>>>> gh-pages
-}
+// .arrow {
+// 	padding: .5em;
+// 	font-size: 3em;
+// 	text-align: center;
 
 .involve-video {
 	height: 200px;
 	width: 270px;
 	@media only screen and (min-width: 25em) {
-	height: 300px;
+	height: 340px;
 	width: 100%;
 	}
 }
 
 .start-btn {
   @include button($blue);
-
 }
 
 .start-container {
@@ -50,11 +42,10 @@
 	background-color: lighten($gray, 70%);
 }
 
-
-.involve-lgo {
+.involve-logo {
 	width: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 3em;
 }
