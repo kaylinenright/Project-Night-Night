@@ -2344,6 +2344,7 @@ td, th, fieldset {
   margin-right: auto;
   text-transform: uppercase;
   font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .start-btn:hover {
@@ -2467,6 +2468,7 @@ ol li {
   margin-right: auto;
   text-transform: uppercase;
   font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .button:hover {
