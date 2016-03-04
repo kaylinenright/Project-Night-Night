@@ -1,0 +1,58 @@
+// .billboard-title {
+// 	padding-top: 8em;
+// }
+
+// .arrow {
+// 	padding: .5em;
+// 	font-size: 3em;
+// 	text-align: center;
+
+.involve-video {
+	height: 200px;
+	width: 270px;
+	@media only screen and (min-width: 25em) {
+	height: 340px;
+	width: 100%;
+	}
+}
+
+.start-btn {
+  @include button($blue);
+}
+
+.start-container {
+	padding-bottom: 4em;
+	text-align: center;
+}
+
+.volunteer {
+	background-color: lighten($gray, 70%);
+}
+
+.row-img {
+
+	white-space: nowrap;
+}
+
+.birthday {
+	background-color: lighten($gray, 70%);
+}
+
+.marketing {
+	background-color: lighten($gray, 70%);
+}
+
+.involve-logo {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+
+
+ol {
+	li {
+		list-style-type: none;
+	}
+}

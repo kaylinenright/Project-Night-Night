@@ -1,0 +1,59 @@
+.yellow-back {
+    background-color: $yellow;
+}
+
+.grey-back{
+    background-color: $gray;
+}
+
+.orange-back{
+    background-color: $orange;
+}
+
+.blue-back {
+    background-color: $blue;
+}
+
+.button{
+    @include button($blue)
+        }
+
+.email {
+    @include email($orange)
+        }
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+ .register {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    
+    label {
+    display: block;
+    font-family: $text;
+    size: 100%;
+}
+
+
+input + label {
+    display: inline-block;
+}
+
+.sign-up {
+    width: 100%;
+}
+.sign-up:focus {
+    outline: 2px solid $blue;
+}
+
+.small-type{
+    font-size: .7em;
+    margin-left: 2em;
+    margin-right: 2em;
+}

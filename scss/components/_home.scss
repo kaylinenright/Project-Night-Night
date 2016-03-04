@@ -1,0 +1,30 @@
+.map-sec {
+		background-image: url(../img/usa-map.jpg);
+		height: 520px;
+		background-position: 0px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-top: 6em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 6em;
+			height: 415px;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 6em;
+			height: 415px;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+			height: 400px;
+			background-position: -380px;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 7em;
+			background-position: 0px;
+			height: 500px;
+		}
+	}
+
+.what-we-do {
+	background-color: lighten($gray, 70%);
+}

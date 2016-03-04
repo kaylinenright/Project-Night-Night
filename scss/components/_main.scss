@@ -21,6 +21,10 @@ body {
 	margin: 0;
 }
 
+img {
+    width: 100%;
+}
+
 .img-flex {
 	width: 100%;
 	display: block;
@@ -46,3 +50,162 @@ body {
 	}
  }
 }
+
+.padding-side {
+        @media only screen and (min-width: 25em) {
+            @include padding-small;
+
+        }
+        @media only screen and (min-width: 38em) {
+            @include padding-medium;
+        }
+
+        @media only screen and (min-width: 60em) {
+             @include padding-large;
+        }
+
+        @media only screen and (min-width: 90em) {
+            @include padding-xl;
+
+        }
+}
+
+.padding-t-b {
+        @media only screen and (min-width: 25em) {
+            @include padding-small-t-b;
+
+        }
+        @media only screen and (min-width: 38em) {
+            @include padding-medium-t-b;
+        }
+
+        @media only screen and (min-width: 60em) {
+             @include padding-large-t-b;
+        }
+
+        @media only screen and (min-width: 90em) {
+            @include padding-xl-t-b;
+
+        }
+}
+
+.gutter-billboard {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    @media only screen and (min-width: 25em) {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+    @media only screen and (min-width: 60em) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+   @media only screen and (min-width: 90em) {
+        padding-left: 6rem;
+        padding-right: 6rem
+    }
+}
+
+.h1-blue {
+    @include h1 ($blue);
+}
+
+.h1-gray {
+    @include h1 ($gray);
+}
+
+.h1-yellow {
+    @include h1 ($yellow);
+}
+
+.h1-orange {
+    @include h1 ($orange);
+}
+
+.h1-white {
+    @include h1 ($white);
+}
+
+.h1-black {
+    @include h1 ($black);
+}
+
+.h2-blue {
+    @include h2 ($blue);
+}
+
+.h2-gray {
+    @include h2 ($gray);
+}
+
+.h2-yellow {
+    @include h2 ($yellow);
+}
+
+.h2-orange {
+    @include h2 ($orange);
+}
+
+.h2-white {
+    @include h2 ($white);
+}
+
+.h2-black {
+    @include h2 ($black);
+}
+
+.h3-blue {
+    @include h3 ($blue);
+}
+
+.h3-gray {
+    @include h3 ($gray);
+}
+
+.h3-yellow {
+    @include h3 ($yellow);
+}
+
+.h3-orange {
+    @include h3 ($orange);
+}
+
+.h3-white {
+    @include h3 ($white);
+}
+
+.h3-black {
+    @include h3 ($black);
+}
+
+.p-blue {
+    @include p;
+    color: $blue;
+}
+
+.p-orange {
+    @include p;
+    color: $orange;
+}
+
+
+.p-white {
+    @include p;
+    color: $white;
+}
+
+.p-black {
+    @include p;
+    color: $black;
+}
+
+.p-grey {
+    @include p;
+    color: $gray;
+}
+
+.second-btn {
+	padding-top: 1em;
+}
+
+
