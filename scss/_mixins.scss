@@ -51,6 +51,7 @@
   margin-right: auto;
   text-transform: uppercase;
   font-weight: 700;
+  background-color: rgba( $white, .8);
   &:hover {
     background-color: rgba($color, .8);
     color: $white;
