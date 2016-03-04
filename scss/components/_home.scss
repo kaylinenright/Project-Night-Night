@@ -1,9 +1,13 @@
 .map-sec {
-	img {
-		position: absolute;
+		background-image: url(../img/map.png);
+		height: 520px;
+		background-position: -620px;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		margin-bottom: 10em;
 	}
 	h3 {
 		top: 0;
 		position: relative;
 	}
-}
