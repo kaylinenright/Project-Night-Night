@@ -116,6 +116,32 @@ img {
   }
 }
 
+.gutter-billboard {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+@media only screen and (min-width: 25em) {
+  .gutter-billboard {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .gutter-billboard {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .gutter-billboard {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
 .h1-blue {
   margin-bottom: 1.5em;
   text-transform: uppercase;
@@ -224,6 +250,12 @@ img {
   color: #00a5a9;
 }
 
+.p-orange {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #f16824;
+}
+
 .p-white {
   font-size: 1em;
   line-height: 1.5em;
@@ -244,24 +276,6 @@ img {
 
 .second-btn {
   padding-top: 1em;
-}
-
-@media only screen and (min-width: 25em) {
-  .second-btn {
-    padding-top: 1em;
-  }
-}
-
-@media only screen and (min-width: 60em) {
-  .second-btn {
-    padding-top: 1.5m;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-  .second-btn {
-    padding-top: 2em;
-  }
 }
 
 /*
@@ -1708,44 +1722,7 @@ td, th, fieldset {
 @media only screen and (min-width: 90em) {
   .billboard {
     background-position: 0px 0px;
-    height: 1000px;
-  }
-}
-
-.new-billboard {
-  height: 29em;
-  background-image: url(../img/pnn-billboard.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: -141px;
-  width: 100%;
-}
-
-@media only screen and (min-width: 25em) {
-  .new-billboard {
-    background-position: 0px 100%;
-    height: 500px;
-  }
-}
-
-@media only screen and (min-width: 38em) {
-  .new-billboard {
-    background-position: 0px 100%;
-    height: 650px;
-  }
-}
-
-@media only screen and (min-width: 60em) {
-  .new-billboard {
-    background-position: 0px 100%;
-    height: 750px;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-  .new-billboard {
-    background-position: 0px 0px;
-    height: 1000px;
+    height: 850px;
   }
 }
 
@@ -1785,22 +1762,18 @@ td, th, fieldset {
 }
 
 .content-header h1 {
-  font-size: 1.5em;
   text-transform: uppercase;
   color: #333333;
   font-weight: 900;
-  margin-bottom: .5em;
 }
 
 .content-header p {
-  font-size: 1em;
   color: #00a5a9;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .content-header h3 {
-  font-size: 1em;
   color: #333333;
   padding-top: .5em;
 }
@@ -1844,23 +1817,67 @@ td, th, fieldset {
   }
 }
 
-.current {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  font-family: sans-serif;
-  line-height: 60px;
-  font-size: 1.8020rem;
-  line-height: 60px;
-  color: #00a5a9;
+.billboard-involve {
+  height: 30em;
+  background-image: url(../img/get-involved.jpg);
+  background-position: -450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 25em) {
+  .billboard-involve {
+    background-position: -300px;
+    height: 27em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .billboard-involve {
+    background-position: -370px;
+    height: 35em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
-  .current {
-    line-height: 60px;
-    font-size: 1rem;
-    color: #00a5a9;
-    padding: 0.15em 1em;
+  .billboard-involve {
+    background-position: -170px;
+    height: 38em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .billboard-involve {
+    background-position: -170px;
+    height: 38em;
+  }
+}
+
+.billboard-involve .text-push-down {
+  padding-top: 6em;
+}
+
+@media only screen and (min-width: 25em) {
+  .billboard-involve .text-push-down {
+    padding-top: 6em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .billboard-involve .text-push-down {
+    padding-top: 7em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard-involve .text-push-down {
+    padding-top: 8em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .billboard-involve .text-push-down {
+    padding-top: 8em;
   }
 }
 
@@ -1917,10 +1934,10 @@ td, th, fieldset {
 @media only screen and (min-width: 60em) {
   .nav {
     padding-top: 0px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     text-align: right;
     right: 30px;
-    height: 15vh;
+    height: 17vh;
     left: 0px;
     transition: none;
     padding-right: 1em;
@@ -1940,7 +1957,7 @@ td, th, fieldset {
 @media only screen and (min-width: 60em) {
   .nav .regular {
     display: inline-block;
-    padding: 0.75em  .75em;
+    padding: 1.45em  .75em;
   }
 }
 
@@ -1963,6 +1980,26 @@ td, th, fieldset {
 
 .regular:hover {
   color: #00a5a9;
+}
+
+.regular.current {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 1.8020rem;
+  line-height: 60px;
+  color: #00a5a9;
+}
+
+@media only screen and (min-width: 60em) {
+  .regular.current {
+    line-height: 60px;
+    font-size: 1rem;
+    color: #00a5a9;
+    padding: 0.15em 1em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -2147,21 +2184,6 @@ td, th, fieldset {
   color: #000;
 }
 
-.billboard-involve {
-  height: 29em;
-  background-color: #333333;
-}
-
-.billboard-title {
-  padding-top: 8em;
-}
-
-.arrow {
-  padding: .5em;
-  font-size: 3em;
-  text-align: center;
-}
-
 .involve-video {
   height: 200px;
   width: 270px;
@@ -2169,7 +2191,7 @@ td, th, fieldset {
 
 @media only screen and (min-width: 25em) {
   .involve-video {
-    height: 300px;
+    height: 340px;
     width: 100%;
   }
 }
@@ -2202,7 +2224,7 @@ td, th, fieldset {
 }
 
 .volunteer {
-  background-color: #f5c715;
+  background-color: #e6e6e6;
 }
 
 .row-img {
@@ -2210,19 +2232,23 @@ td, th, fieldset {
 }
 
 .birthday {
-  background-color: #333333;
+  background-color: #e6e6e6;
 }
 
 .marketing {
-  background-color: red;
+  background-color: #e6e6e6;
 }
 
-.involve-lgo {
+.involve-logo {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
+}
+
+ol li {
+  list-style-type: none;
 }
 
 .blogs {
@@ -2345,11 +2371,45 @@ input + label {
   margin-right: 2em;
 }
 
-.map-sec img {
-  position: absolute;
+.map-sec {
+  background-image: url(../img/usa-map.jpg);
+  height: 520px;
+  background-position: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 6em;
 }
 
-.map-sec h3 {
-  top: 0;
-  position: relative;
+@media only screen and (min-width: 25em) {
+  .map-sec {
+    padding-top: 6em;
+    height: 415px;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .map-sec {
+    padding-top: 6em;
+    height: 415px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .map-sec {
+    padding-top: 5em;
+    height: 400px;
+    background-position: -380px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .map-sec {
+    padding-top: 7em;
+    background-position: 0px;
+    height: 500px;
+  }
+}
+
+.what-we-do {
+  background-color: #e6e6e6;
 }

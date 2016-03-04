@@ -1,20 +1,5 @@
 //********************** General Navigation details ***************//
-.current {
-	display: block;
-  text-decoration: none;
-  text-align: center;
-  font-family: sans-serif;
-  line-height: 60px;
-  font-size: 1.8020rem;
-  line-height: 60px;
-  color: $blue;
-	@media only screen and (min-width: 60em) {
-	  line-height: 60px;
-		font-size: 1rem;
-		color: $blue;
-		padding: 0.15em 1em;
-	}
-}
+
 
 .donate {
 	border: solid $blue 3px;
@@ -62,10 +47,10 @@
   z-index: 1;
 	@media only screen and (min-width: 60em) {
 		padding-top: 0px;
-		background-color: rgba(255, 255, 255, 0.5);
+		background-color: rgba(255, 255, 255, 0.8);
 		text-align: right;
 		right:30px;
-		height: 15vh;
+		height: 17vh;
 		left: 0px;
 		-webkit-transition: none;
 		transition: none;
@@ -80,7 +65,7 @@
   .regular{
   	@media only screen and (min-width: 60em) {
   		display: inline-block;
-  		padding: 0.75em  .75em;
+  		padding: 1.45em  .75em;
 		}
 		@media only screen and (min-width: 90em) {
 		padding: 1.5em .75em;
@@ -100,6 +85,23 @@
 	&:hover {
 		color: $blue;
 	}
+	&.current {
+		display: block;
+	  text-decoration: none;
+	  text-align: center;
+	  font-family: sans-serif;
+	  line-height: 60px;
+	  font-size: 1.8020rem;
+	  line-height: 60px;
+	  color: $blue;
+		@media only screen and (min-width: 60em) {
+		  line-height: 60px;
+			font-size: 1rem;
+			color: $blue;
+			padding: 0.15em 1em;
+		}
+	}
+
 	@media only screen and (min-width: 60em) {
 	 line-height: 60px;
 	 font-size: 1rem;
