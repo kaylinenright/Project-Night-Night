@@ -97,7 +97,6 @@
 //
 //inside page billboard stuff
 
-<<<<<<< HEAD
 .new-billboard {
  	background-size: cover;
  	background-repeat: no-repeat;
@@ -116,7 +115,6 @@
  		height: 700px;
  	}
  }
-=======
 // .new-billboard {
 // 	background-image: url('{{ site.baseurl }}/img/{{page.img}}');;
 // 	background-size: cover;
@@ -143,8 +141,6 @@
 // 		padding-top: 3em;
 // 	}
 // }
->>>>>>> gh-pages
-
 // .arrow {
 // 	font-size: 3em;
 // 	text-align: center;
@@ -152,7 +148,6 @@
 // }
 
 .billboard-involve {
-<<<<<<< HEAD
 	background-image: url(../img/get-involved.jpg);
 	background-position: -450px;
 	@media only screen and (min-width: 25em) {
@@ -166,12 +161,12 @@
 	}
 	@media only screen and (min-width: 90em) {
 		background-position: -170px;
-=======
 	height: 30em;
 	background-image: url(../img/get-involved.jpg);
 	background-position: -450px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	}
 	@media only screen and (min-width: 25em) {
 		background-position: -300px;
 		height: 27em;
@@ -187,7 +182,6 @@
 	@media only screen and (min-width: 90em) {
 		background-position: -170px;
 		height: 38em;
->>>>>>> gh-pages
 	}
 	.text-push-down {
 		padding-top: 6em;

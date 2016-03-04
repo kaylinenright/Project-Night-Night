@@ -1,6 +1,5 @@
 ---
 layout: header-footer
-<<<<<<< HEAD
 billboardClass: billboard-blog-page
 page-title: News & Press
 meta: News/Press
@@ -10,24 +9,11 @@ page-sub-title:
 ---
 
 {% include billboard.html %}
-=======
-meta: Blog/News
-billboardClass: new-billboard
-img: news-press.jpg
-current: news
----
-
-
-<div>
-	{% include billboard.html %}
-</div>
->>>>>>> gh-pages
 
 <main>
 
 <div class="grid news-section">
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-	test
 	  {% for news in site.data.news %}
   	<img src="{{site.baseurl}}/img/{{image}}" alt="{{page.news-img-1}}">
   	<h4>{{news.title}}</h4>
