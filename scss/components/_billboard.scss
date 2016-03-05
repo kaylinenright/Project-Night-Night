@@ -1,5 +1,9 @@
 //home page background elements
 
+.over-billboard {
+	background-color: rgba( $white, .5);
+}
+
 .billboard {
 	height: 29em;
 	background-image: url(../img/pnn-billboard.jpg);
@@ -129,7 +133,7 @@
 
 .billboard-about-us {
 	background-image: url(../img/about-us.jpg);
-background-size: 150%;
+	background-size: 150%;
  	background-repeat: no-repeat;
  	width: 100%;
  	position: relative;
@@ -217,7 +221,7 @@ background-size: 150%;
 
 .billboard-contact-us {
 	background-image: url(../img/contact-us.jpg);
-background-size: 150%;
+	background-size: 150%;
  	background-repeat: no-repeat;
  	width: 100%;
  	position: relative;
@@ -260,7 +264,7 @@ background-size: 150%;
 
 .billboard-blog-page {
 	background-image: url(../img/news-press.jpg);
-background-size: 150%;
+	background-size: 150%;
  	background-repeat: no-repeat;
  	width: 100%;
  	position: relative;
