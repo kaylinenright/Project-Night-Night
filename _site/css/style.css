@@ -1818,195 +1818,305 @@ td, th, fieldset {
 
 .billboard-about-us {
   background-image: url(../img/about-us.jpg);
-  background-size: 200%;
+  background-size: 150%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 15em;
   position: relative;
-  background-position: -150px 0px;
-}
-
-.text-push-down {
-  text-align: center;
-  padding-top: 3.5em;
+  background-position: center 0;
+  top: 70px;
 }
 
 @media only screen and (min-width: 25em) {
-  .text-push-down {
-    padding-top: 6em;
+  .billboard-about-us {
+    background-size: 115%;
+    top: 95px;
   }
 }
 
 @media only screen and (min-width: 38em) {
-  .text-push-down {
-    padding-top: 7em;
+  .billboard-about-us {
+    background-size: 105%;
   }
 }
 
 @media only screen and (min-width: 60em) {
-  .text-push-down {
-    padding-top: 8em;
+  .billboard-about-us {
+    background-size: 100%;
+    top: 125px;
+  }
+}
+
+.billboard-about-us .text-push-down {
+  text-align: center;
+  padding-top: 2.5em;
+}
+
+@media only screen and (min-width: 25em) {
+  .billboard-about-us .text-push-down {
+    padding-top: 4em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .billboard-about-us .text-push-down {
+    padding-top: 3.5em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard-about-us .text-push-down {
+    padding-top: 5em;
   }
 }
 
 @media only screen and (min-width: 90em) {
-  .text-push-down {
+  .billboard-about-us .text-push-down {
     padding-top: 8em;
   }
 }
 
 .billboard-involve {
   background-image: url(../img/get-involved.jpg);
-  background-size: 200%;
+  background-size: 150%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 15em;
   position: relative;
-  background-position: -150px 0px;
-}
-
-.text-push-down {
-  text-align: center;
-  padding-top: 3.5em;
+  background-position: center 0;
+  top: 70px;
 }
 
 @media only screen and (min-width: 25em) {
-  .text-push-down {
-    padding-top: 6em;
+  .billboard-involve {
+    background-size: 115%;
+    top: 95px;
   }
 }
 
 @media only screen and (min-width: 38em) {
-  .text-push-down {
-    padding-top: 7em;
+  .billboard-involve {
+    background-size: 105%;
   }
 }
 
 @media only screen and (min-width: 60em) {
-  .text-push-down {
-    padding-top: 8em;
+  .billboard-involve {
+    background-size: 100%;
+    top: 125px;
+  }
+}
+
+.billboard-involve .text-push-down {
+  text-align: center;
+  padding-top: 2.5em;
+}
+
+@media only screen and (min-width: 25em) {
+  .billboard-involve .text-push-down {
+    padding-top: 4em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .billboard-involve .text-push-down {
+    padding-top: 3.5em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard-involve .text-push-down {
+    padding-top: 5em;
   }
 }
 
 @media only screen and (min-width: 90em) {
-  .text-push-down {
+  .billboard-involve .text-push-down {
     padding-top: 8em;
   }
 }
 
 .billboard-contact-us {
   background-image: url(../img/contact-us.jpg);
-  background-size: 200%;
+  background-size: 150%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 15em;
   position: relative;
-  background-position: -150px 0px;
-}
-
-.text-push-down {
-  text-align: center;
-  padding-top: 3.5em;
+  background-position: center 0;
+  top: 70px;
 }
 
 @media only screen and (min-width: 25em) {
-  .text-push-down {
-    padding-top: 6em;
+  .billboard-contact-us {
+    background-size: 115%;
+    top: 95px;
   }
 }
 
 @media only screen and (min-width: 38em) {
-  .text-push-down {
-    padding-top: 7em;
+  .billboard-contact-us {
+    background-size: 105%;
   }
 }
 
 @media only screen and (min-width: 60em) {
-  .text-push-down {
-    padding-top: 8em;
+  .billboard-contact-us {
+    background-size: 100%;
+    top: 125px;
+  }
+}
+
+.billboard-contact-us .text-push-down {
+  text-align: center;
+  padding-top: 2.5em;
+}
+
+@media only screen and (min-width: 25em) {
+  .billboard-contact-us .text-push-down {
+    padding-top: 4em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .billboard-contact-us .text-push-down {
+    padding-top: 3.5em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard-contact-us .text-push-down {
+    padding-top: 5em;
   }
 }
 
 @media only screen and (min-width: 90em) {
-  .text-push-down {
+  .billboard-contact-us .text-push-down {
     padding-top: 8em;
   }
 }
 
 .billboard-blog-page {
   background-image: url(../img/news-press.jpg);
-  background-size: 200%;
+  background-size: 150%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 15em;
   position: relative;
-  background-position: -150px 0px;
-}
-
-.text-push-down {
-  text-align: center;
-  padding-top: 3.5em;
+  background-position: center 0;
+  top: 70px;
 }
 
 @media only screen and (min-width: 25em) {
-  .text-push-down {
-    padding-top: 6em;
+  .billboard-blog-page {
+    background-size: 115%;
+    top: 95px;
   }
 }
 
 @media only screen and (min-width: 38em) {
-  .text-push-down {
-    padding-top: 7em;
+  .billboard-blog-page {
+    background-size: 105%;
   }
 }
 
 @media only screen and (min-width: 60em) {
-  .text-push-down {
-    padding-top: 8em;
+  .billboard-blog-page {
+    background-size: 100%;
+    top: 125px;
+  }
+}
+
+.billboard-blog-page .text-push-down {
+  text-align: center;
+  padding-top: 2.5em;
+}
+
+@media only screen and (min-width: 25em) {
+  .billboard-blog-page .text-push-down {
+    padding-top: 4em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .billboard-blog-page .text-push-down {
+    padding-top: 3.5em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard-blog-page .text-push-down {
+    padding-top: 5em;
   }
 }
 
 @media only screen and (min-width: 90em) {
-  .text-push-down {
+  .billboard-blog-page .text-push-down {
     padding-top: 8em;
   }
 }
 
 .billboard-resources {
   background-image: url(../img/resources.jpg);
-  background-size: 200%;
+  background-size: 150%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 15em;
   position: relative;
-  background-position: -150px 0px;
-}
-
-.text-push-down {
-  text-align: center;
-  padding-top: 3.5em;
+  background-position: center 0;
+  top: 70px;
 }
 
 @media only screen and (min-width: 25em) {
-  .text-push-down {
-    padding-top: 6em;
+  .billboard-resources {
+    background-size: 115%;
+    top: 95px;
   }
 }
 
 @media only screen and (min-width: 38em) {
-  .text-push-down {
-    padding-top: 7em;
+  .billboard-resources {
+    background-size: 105%;
   }
 }
 
 @media only screen and (min-width: 60em) {
-  .text-push-down {
-    padding-top: 8em;
+  .billboard-resources {
+    background-size: 100%;
+    top: 125px;
+  }
+}
+
+.billboard-resources .text-push-down {
+  text-align: center;
+  padding-top: 2.5em;
+}
+
+@media only screen and (min-width: 25em) {
+  .billboard-resources .text-push-down {
+    padding-top: 4em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .billboard-resources .text-push-down {
+    padding-top: 3.5em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard-resources .text-push-down {
+    padding-top: 5em;
   }
 }
 
 @media only screen and (min-width: 90em) {
-  .text-push-down {
+  .billboard-resources .text-push-down {
     padding-top: 8em;
   }
 }
@@ -2425,18 +2535,6 @@ ol li {
   margin-top: 1em;
 }
 
-.billboard-about-us {
-  height: 200px;
-  width: 270px;
-}
-
-@media only screen and (min-width: 25em) {
-  .billboard-about-us {
-    height: 340px;
-    width: 100%;
-  }
-}
-
 .yellow-back {
   background-color: #f5c715;
 }
@@ -2568,4 +2666,12 @@ input + label {
   .map-sec h3 {
     top: 55px;
   }
+}
+
+.contact-holder {
+  margin-top: 4em;
+}
+
+.resources-holder {
+  margin-top: 6em;
 }
