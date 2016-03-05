@@ -1686,6 +1686,10 @@ td, th, fieldset {
   }
 }
 
+.over-billboard {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .billboard {
   height: 29em;
   background-image: url(../img/pnn-billboard.jpg);
@@ -1885,7 +1889,6 @@ td, th, fieldset {
   position: relative;
   background-position: center 0;
   top: 70px;
-<<<<<<< HEAD
 }
 
 @media only screen and (min-width: 25em) {
@@ -1895,17 +1898,6 @@ td, th, fieldset {
   }
 }
 
-=======
-}
-
-@media only screen and (min-width: 25em) {
-  .billboard-involve {
-    background-size: 115%;
-    top: 95px;
-  }
-}
-
->>>>>>> gh-pages
 @media only screen and (min-width: 38em) {
   .billboard-involve {
     background-size: 105%;
@@ -1958,7 +1950,6 @@ td, th, fieldset {
   position: relative;
   background-position: center 0;
   top: 70px;
-<<<<<<< HEAD
 }
 
 @media only screen and (min-width: 25em) {
@@ -1968,17 +1959,6 @@ td, th, fieldset {
   }
 }
 
-=======
-}
-
-@media only screen and (min-width: 25em) {
-  .billboard-contact-us {
-    background-size: 115%;
-    top: 95px;
-  }
-}
-
->>>>>>> gh-pages
 @media only screen and (min-width: 38em) {
   .billboard-contact-us {
     background-size: 105%;
@@ -2044,7 +2024,6 @@ td, th, fieldset {
   .billboard-blog-page {
     background-size: 105%;
   }
-<<<<<<< HEAD
 }
 
 @media only screen and (min-width: 60em) {
@@ -2054,17 +2033,6 @@ td, th, fieldset {
   }
 }
 
-=======
-}
-
-@media only screen and (min-width: 60em) {
-  .billboard-blog-page {
-    background-size: 100%;
-    top: 125px;
-  }
-}
-
->>>>>>> gh-pages
 .billboard-blog-page .text-push-down {
   text-align: center;
   padding-top: 2.5em;
