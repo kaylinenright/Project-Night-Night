@@ -1,5 +1,9 @@
 //home page background elements
 
+.over-billboard {
+	background-color: rgba( $white, .5);
+}
+
 .billboard {
 	height: 29em;
 	background-image: url(../img/pnn-billboard.jpg);
@@ -93,9 +97,6 @@
 	}
 }
 
-//
-//
-//inside page billboard stuff
 
 // .new-billboard {
 // 	background-image: url('{{ site.baseurl }}/img/{{page.img}}');;
@@ -123,45 +124,47 @@
 // 		padding-top: 3em;
 // 	}
 // }
-
 // .arrow {
 // 	font-size: 3em;
 // 	text-align: center;
 // 	color: rgba( $white, .8);
 // }
 
-.billboard-involve {
-	height: 30em;
-	background-image: url(../img/get-involved.jpg);
-	background-position: -450px;
-	background-size: cover;
-	background-repeat: no-repeat;
+
+.billboard-about-us {
+	background-image: url(../img/about-us.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+ 	top: 70px;
 	@media only screen and (min-width: 25em) {
-		background-position: -300px;
-		height: 27em;
+		background-size: 115%;
+		top: 95px;
 	}
 	@media only screen and (min-width: 38em) {
-		background-position: -370px;
-		height: 35em;
+		background-size: 105%;
 	}
 	@media only screen and (min-width: 60em) {
-		background-position: -170px;
-		height: 38em;
+		background-size: 100%;
+		top: 125px;
 	}
 	@media only screen and (min-width: 90em) {
-		background-position: -170px;
-		height: 38em;
 	}
 	.text-push-down {
-		padding-top: 6em;
+		text-align: center;
+		padding-top: 2.5em;
 		@media only screen and (min-width: 25em) {
-			padding-top: 6em;
+			padding-top: 4em;
+    		margin-bottom: 5em;
 		}
 		@media only screen and (min-width: 38em) {
-			padding-top: 7em;
+			padding-top: 3.5em;
+    		margin-bottom: 5em;
 		}
 		@media only screen and (min-width: 60em) {
-			padding-top: 8em;
+			padding-top: 5em;
 		}
 		@media only screen and (min-width: 90em) {
 			padding-top: 8em;
@@ -169,6 +172,180 @@
 	}
 }
 
+///
+///
+
+.billboard-involve {
+	background-image: url(../img/get-involved.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+ 	top: 70px;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+		top: 95px;
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+		top: 125px;
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.5em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 8em;
+		}
+	}
+}
+
+//
+//
+
+.billboard-contact-us {
+	background-image: url(../img/contact-us.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+ 	top: 70px;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+		top: 95px;
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+		top: 125px;
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.5em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 8em;
+		}
+	}
+}
+//
+//
+
+.billboard-blog-page {
+	background-image: url(../img/news-press.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+ 	top: 70px;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+		top: 95px;
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+		top: 125px;
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.5em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 8em;
+		}
+	}
+}
+
+//
+//
+
+.billboard-resources {
+	background-image: url(../img/resources.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+ 	top: 70px;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+		top: 95px;
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+		top: 125px;
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.5em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 8em;
+		}
+	}
+}
 // .billboard-involve {
 // 	background-image: url(.../img/{{page.img);
 // }
