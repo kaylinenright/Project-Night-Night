@@ -59,7 +59,7 @@
 }
 
 @mixin padding-small {
-padding: 0 10% 0 10%;
+padding: 0 5% 0 5%;
 }
 
 @mixin padding-medium {
@@ -97,8 +97,6 @@ padding-top: 4em;
 padding-bottom: 4em;    
 }
 
-
-
 @mixin padding-xl-t-b {
     padding: 0 20% 0 20%;
 }
@@ -118,6 +116,7 @@ padding-bottom: 4em;
 @mixin h3 ($color) {
     margin-bottom: .5em;
     color: $color;
+    text-align: left;
 }
 
 @mixin p {
@@ -132,6 +131,14 @@ padding-bottom: 4em;
     &:hover {
     color: $color;
   }
-    
+}
 
+@mixin ul ($color) {
+    list-style-type: none;
+    color: $black;
+    text-align: left;
+}
+
+@mixin li {
+    text-align: left;
 }
