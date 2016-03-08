@@ -135,6 +135,10 @@ padding-bottom: 4em;
 
 @mixin ul ($color) {
     list-style-type: none;
-    text-align: left;
     color: $black;
+    text-align: left;
+}
+
+@mixin li {
+    text-align: left;
 }
