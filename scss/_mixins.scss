@@ -131,10 +131,10 @@ padding-bottom: 4em;
     &:hover {
     color: $color;
   }
-
 }
 
-@mixin ul {
+@mixin ul ($color) {
     list-style-type: none;
     text-align: left;
+    color: $black;
 }
