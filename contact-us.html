@@ -1,19 +1,21 @@
 ---
 layout: header-footer
+billboardClass: billboard-contact-us
+page-title: Contact Us
 meta: Contact Us
 img: contact-us.jpg
 current: contact-us
+page-sub-title: 
 ---
 
-<div>
-    {% include billboard.html %}
-</div>
+{% include billboard.html %}
 
-<p>Got a Question? First, please check out our <a>FAQ page</a>. No luck there? Fill out the form below and we will do our best to be in touch with answers as soon as possible!</p>
+<div class="text-center padding-side padding-t-b">
+<div class="grid contact-holder">
 
-</div>
+<p class="padding-side pad-t-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">Got a Question? First, please check out our <a>FAQ page</a>. No luck there? Fill out the form below and we will do our best to be in touch with answers as soon as possible!</p>
 
-<form class="form padding-side padding-t-b">
+<form class="form padding-side padding-t-b unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 
     <div class="gutter">
         <label for="Name">Full Name</label>
@@ -53,26 +55,31 @@ current: contact-us
 
 </form>
 
-<div class="padding-side padding-t-b">
-    <div>
-        <h3>San Francisco Office</h3>
-        <ul>
+    
+<div class="pad-t-2">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 pad-t-2 pad-b-2 gutter">
+        <h3 class="h3-orange">San Francisco Office</h3>
+        <ul class="ul">
             <li>Kendra Robins</li>
             <li>Project Night Night</li>
             <li>415-310-0360</li>
-            <li><a class="email" href="mailto:Kendra@ProjectNightNight.org">Kendra@ProjectNightNight.org</a></li>
+            <li><a class="email">Kendra@ProjectNightNight.org</a></li>
         </ul>
     </div>
 
-    <div>
-        <h3>Clevland Office</h3>
+    <div class="pad-b-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 pad-t-2 pad-b-2">
+        <h3 class="h3-orange">Clevland Office</h3>
         <ul>
             <li>Jessica Bryan</li>
             <li>Project Night Night</li>
             <li>734-277-7950</li>
-            <li><a class="email" href="mailto:Jessica@ProjectNightNight.org">Jessica@ProjectNightNight.org</a></li>
+            <li><a class="email">Jessica@ProjectNightNight.org</a></li>
         </ul>
     </div>
-
+    
     <p>Please check our <a>FAQ page</a> prior to calling our offices.  We are a small staff that often cannot answer the phone due to our shelter visits and deliveries.</p>
+</div>
+    
+
+</div>
 </div>

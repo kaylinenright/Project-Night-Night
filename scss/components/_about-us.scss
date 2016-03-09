@@ -26,18 +26,22 @@
     text-align: center;
 }
 
-
-
+.about-us {
+    padding-top: 80px;
+}
 
  .register {
         margin-left: 5em;
         margin-right: 5em;
     }
-    
+
     label {
     display: block;
     font-family: $text;
     size: 100%;
+    padding-top: 1em;
+    padding-bottom: .25em;
+    text-align: left;
 }
 
 
@@ -48,6 +52,7 @@ input + label {
 .sign-up {
     width: 100%;
 }
+
 .sign-up:focus {
     outline: 2px solid $blue;
 }
