@@ -1,5 +1,5 @@
 <url>
-	<loc>http://2016.grads.algonquindesign.ca{{site.baseurl}}{{include.entry.url}}</loc>
+	<loc>{{site.baseurl}}{{include.entry.url}}</loc>
 	{% if include.entry.changefreq %}
 		<changefreq>{{include.entry.changefreq}}</changefreq>
 	{% endif %}
