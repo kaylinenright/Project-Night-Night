@@ -1,0 +1,10 @@
+.newsletter-thankyou {
+height: 65vh;
+}
+
+.text-push {
+	padding-top: 3em;
+	@media only screen and (min-width: 90em) {
+		padding-top: 2em;
+	}
+}
