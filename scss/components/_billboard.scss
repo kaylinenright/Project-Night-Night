@@ -3,6 +3,16 @@
 .over-billboard {
 	background-color: rgba( $white, .5);
 }
+.billboard-white {
+ 	height: 70px;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+		height: 95px;
+	}
+	@media only screen and (min-width: 60em) {
+		height: 125px;
+	}
+}
 
 .billboard {
 	height: 38em;
@@ -138,17 +148,14 @@
  	width: 100%;
  	position: relative;
  	background-position: center 0;
- 	top: 70px;
 	@media only screen and (min-width: 25em) {
 		background-size: 115%;
-		top: 95px;
 	}
 	@media only screen and (min-width: 38em) {
 		background-size: 105%;
 	}
 	@media only screen and (min-width: 60em) {
 		background-size: 100%;
-		top: 125px;
 	}
 	@media only screen and (min-width: 90em) {
 	}
@@ -182,17 +189,14 @@
  	width: 100%;
  	position: relative;
  	background-position: center 0;
- 	top: 70px;
 	@media only screen and (min-width: 25em) {
 		background-size: 115%;
-		top: 95px;
 	}
 	@media only screen and (min-width: 38em) {
 		background-size: 105%;
 	}
 	@media only screen and (min-width: 60em) {
 		background-size: 100%;
-		top: 125px;
 	}
 	@media only screen and (min-width: 90em) {
 	}
@@ -226,17 +230,17 @@
  	width: 100%;
  	position: relative;
  	background-position: center 0;
- 	top: 70px;
+
 	@media only screen and (min-width: 25em) {
 		background-size: 115%;
-		top: 95px;
+
 	}
 	@media only screen and (min-width: 38em) {
 		background-size: 105%;
 	}
 	@media only screen and (min-width: 60em) {
 		background-size: 100%;
-		top: 125px;
+
 	}
 	@media only screen and (min-width: 90em) {
 	}
@@ -269,17 +273,15 @@
  	width: 100%;
  	position: relative;
  	background-position: center 0;
- 	top: 70px;
+
 	@media only screen and (min-width: 25em) {
 		background-size: 115%;
-		top: 95px;
 	}
 	@media only screen and (min-width: 38em) {
 		background-size: 105%;
 	}
 	@media only screen and (min-width: 60em) {
 		background-size: 100%;
-		top: 125px;
 	}
 	@media only screen and (min-width: 90em) {
 	}
