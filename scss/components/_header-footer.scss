@@ -2,7 +2,7 @@
 
 
 .donate {
-	border: solid $blue 3px;
+	border: solid $blue 2px;
 	display: block;
   text-decoration: none;
   text-align: center;
@@ -10,9 +10,11 @@
   line-height: 60px;
   font-size: 1.8020rem;
   line-height: 60px;
-  color: $black;
+  color: $blue;
   margin: 0 .75em;
   padding: 0;
+  text-transform: uppercase;
+  background-color: rgba( $white, .8);
 	&:hover {
 		background-color: $blue;
 		color: $white;
@@ -22,7 +24,7 @@
  		font-size: 1rem;
  		margin: .25em 0.5em 0 0;
  		display: inline;
- 		padding: 0.5em 1em;
+ 		padding: 0.8em 1em;
 	}
 	@media only screen and (min-width: 90em) {
 		margin: .25em 3em 0 0;
@@ -209,7 +211,6 @@
 			padding: 0 .5em;
 		}
 	}
-
 }
 
 .address {
