@@ -51,44 +51,6 @@ img {
  }
 }
 
-.padding-side {
-        @media only screen and (min-width: 25em) {
-            @include padding-small;
-
-        }
-        @media only screen and (min-width: 38em) {
-            @include padding-medium;
-        }
-
-        @media only screen and (min-width: 60em) {
-             @include padding-large;
-        }
-
-        @media only screen and (min-width: 90em) {
-            @include padding-xl;
-
-        }
-}
-
-.padding-t-b {
-        @media only screen and (min-width: 25em) {
-            @include padding-small-t-b;
-
-        }
-        @media only screen and (min-width: 38em) {
-            @include padding-medium-t-b;
-        }
-
-        @media only screen and (min-width: 60em) {
-             @include padding-large-t-b;
-        }
-
-        @media only screen and (min-width: 90em) {
-            @include padding-xl-t-b;
-
-        }
-}
-
 .gutter-billboard {
     padding-left: 1.3rem;
     padding-right: 1.3rem;
@@ -103,6 +65,20 @@ img {
    @media only screen and (min-width: 90em) {
         padding-left: 6rem;
         padding-right: 6rem
+    }
+}
+
+
+.gutter-side {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    @media only screen and (min-width: 38em) {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+    @media only screen and (min-width: 60em) {
+        padding-left: 7rem;
+        padding-right: 7rem;
     }
 }
 
