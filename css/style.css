@@ -1732,7 +1732,7 @@ td, th, fieldset {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 1em;
   padding-top: 6em;
 }
@@ -2132,10 +2132,10 @@ td, th, fieldset {
 @media only screen and (min-width: 60em) {
   .donate {
     line-height: 60px;
-    font-size: 1rem;
+    font-size: .8rem;
     margin: .25em 0.5em 0 0;
     display: inline;
-    padding: 0.8em 1em;
+    padding: 0.8em 0.8em;
   }
 }
 
@@ -2309,7 +2309,7 @@ td, th, fieldset {
     float: left;
     margin-top: 0;
     height: 120px;
-    padding: 1em 0 0 1em;
+    padding: 1em 0 0 .5em;
     z-index: 100;
   }
 }
@@ -2332,7 +2332,7 @@ td, th, fieldset {
 
 @media only screen and (min-width: 60em) {
   .logo-size {
-    width: 125px;
+    width: 100px;
   }
 }
 
