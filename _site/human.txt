@@ -1,0 +1,25 @@
+/* Team */
+
+
+Rebecca Dagenais
+Natalie Macpherson
+Mystine Laframboise Vien
+Kaylin Enright
+
+/* Thanks */
+
+
+/* Technology and Site */
+
+Sublime Text
+Github
+Prepros
+Terminal
+Adobe Illustrator
+Adobe Photoshop
+
+
+/* Site */
+
+Standards: HTML5, SCSS, Jekyll, JQuery
+Last updated:

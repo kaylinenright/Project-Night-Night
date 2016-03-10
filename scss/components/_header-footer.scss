@@ -1,5 +1,8 @@
 //********************** General Navigation details ***************//
-.current {
+
+
+.donate {
+	border: solid $blue 2px;
 	display: block;
   text-decoration: none;
   text-align: center;
@@ -8,26 +11,11 @@
   font-size: 1.8020rem;
   line-height: 60px;
   color: $blue;
-	@media only screen and (min-width: 60em) {
-	  line-height: 60px;
-		font-size: 1rem;
-		color: $blue;
-		padding: 0.15em 1em;
-	}
-}
-
-.donate {
-	border: solid $blue 3px;
-	display: block;
-  text-decoration: none;
-  text-align: center;
-  font-family: sans-serif;
-  line-height: 60px;
-  font-size: 1.8020rem;
-  line-height: 60px;
-  color: $black;
+  font-weight: 700;
   margin: 0 .75em;
   padding: 0;
+  text-transform: uppercase;
+  background-color: rgba( $white, .8);
 	&:hover {
 		background-color: $blue;
 		color: $white;
@@ -37,7 +25,7 @@
  		font-size: 1rem;
  		margin: .25em 0.5em 0 0;
  		display: inline;
- 		padding: 0.5em 1em;
+ 		padding: 0.8em 1em;
 	}
 	@media only screen and (min-width: 90em) {
 		margin: .25em 3em 0 0;
@@ -50,8 +38,8 @@
   margin: 0;
   list-style-type: none;
   padding-top: 80px;
-  background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
   right:30px;
   top: 0;
   width: 100vw;
@@ -60,16 +48,18 @@
   transition: all 250ms linear;
   left: -150%;
   z-index: 1;
+  	@media only screen and (min-width: 38em) {
+  		background-color: rgba(255, 255, 255, 0.8);
+  	}
 	@media only screen and (min-width: 60em) {
 		padding-top: 0px;
-		background-color: rgba(255, 255, 255, 0.5);
 		text-align: right;
 		right:30px;
-		height: 15vh;
 		left: 0px;
 		-webkit-transition: none;
 		transition: none;
 		padding-right: 1em;
+		height: 130px;
 		}
   li {
 		display: block;
@@ -80,7 +70,7 @@
   .regular{
   	@media only screen and (min-width: 60em) {
   		display: inline-block;
-  		padding: 0.75em  .75em;
+  		padding: 1.45em  .75em;
 		}
 		@media only screen and (min-width: 90em) {
 		padding: 1.5em .75em;
@@ -100,6 +90,23 @@
 	&:hover {
 		color: $blue;
 	}
+	&.current {
+		display: block;
+	  text-decoration: none;
+	  text-align: center;
+	  font-family: sans-serif;
+	  line-height: 60px;
+	  font-size: 1.8020rem;
+	  line-height: 60px;
+	  color: $blue;
+		@media only screen and (min-width: 60em) {
+		  line-height: 60px;
+			font-size: 1rem;
+			color: $blue;
+			padding: 0.15em 1em;
+		}
+	}
+
 	@media only screen and (min-width: 60em) {
 	 line-height: 60px;
 	 font-size: 1rem;
@@ -156,7 +163,7 @@
 	height: 40px;
 	position: fixed;
 	padding: 1em;
-	z-index: 0;
+	z-index: 1;
 	@media only screen and (min-width: 60em) {
 		overflow: hidden;
 		float: left;
@@ -205,23 +212,23 @@
 			padding: 0 .5em;
 		}
 	}
-
 }
 
 .address {
 	color: $white;
 	font-family: sans-serif;
 	padding: 0 2em;
+	text-align: center;
+	@media only screen and (min-width: 38em) {
+		text-align: left;
+	}
 	@media only screen and (min-width: 60em) {
 		padding: 0 3em;
 	}
 }
 
 .footer-link {
-	text-align: left;
-	@media only screen and (min-width: 38em) {
-		text-align: center;
-	}
+	text-align: center;
 	li {
 		padding-bottom: .5em;
 		display: block;

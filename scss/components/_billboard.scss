@@ -1,6 +1,24 @@
+//home page background elements
+
+.over-billboard {
+	background-color: rgba( $white, .5);
+}
+.billboard-white {
+ 	height: 70px;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+		height: 95px;
+	}
+	@media only screen and (min-width: 60em) {
+		height: 125px;
+	}
+	@media only screen and (min-width: 60em) {
+		height: 130px;
+	}
+}
+
 .billboard {
-	z-index: -1;
-	height: 29em;
+	height: 38em;
 	background-image: url(../img/pnn-billboard.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -22,42 +40,10 @@
 	}
 	@media only screen and (min-width: 90em) {
 		background-position: 0px 0px;
-		height: 1000px;
+		height: 850px;
 	}
 }
 
-<<<<<<< HEAD
-.new-billboard {
-		z-index: -1;
-	height: 29em;
-	background-image: url(../img/pnn-billboard.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: -141px;
-	width: 100%;
-	@media only screen and (min-width: 25em) {
-		background-position: 0px 100%;
-		height: 500px;
-	}
-	@media only screen and (min-width: 38em) {
-		background-position: 0px 100%;
-		height: 650px;
-	}
-	@media only screen and (min-width: 60em) {
-		background-position: 0px 100%;
-		height: 750px;
-	}
-	@media only screen and (min-width: 90em) {
-		background-position: 0px 0px;
-		height: 1000px;
-	}
-}
-
-
-.content-header {
-	position: relative;
-	top: 5em;
-=======
 .content-header {
 	position: absolute;
 	top: 0;
@@ -65,7 +51,6 @@
 	width: 100%;
 	height: 100%;
 	background-color: rgba($white, .5);
->>>>>>> gh-pages
 	padding: 1em;
 	padding-top: 6em;
 	@media only screen and (min-width: 25em) {
@@ -80,29 +65,21 @@
 	@media only screen and (min-width: 90em) {
 		padding-top: 12em;
 	}
-
 	h1 {
-		font-size: 1.5em;
 		text-transform: uppercase;
 		color: $gray;
 		font-weight: 900;
-		margin-bottom: .5em;
 	}
-
 	p {
-		font-size: 1em;
 		color: $blue;
 		font-weight: 700;
 		text-transform: uppercase;
 	}
-
 	h3 {
-		font-size: 1em;
 		color: $gray;
 		padding-top: .5em;
 	}
 }
-
 
 .learn-more {
   background-color: rgba($blue, .7);
@@ -134,3 +111,240 @@
 }
 
 
+// .new-billboard {
+// 	background-image: url('{{ site.baseurl }}/img/{{page.img}}');;
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	width: 100%;
+// 	height: 200px;
+// 	@media only screen and (min-width: 25em) {
+// 		background-position: 0px 100%;
+// 		height: 350px;
+// 	}
+// 	@media only screen and (min-width: 38em) {
+// 		background-position: 0px 100%;
+// 		height: 450px;
+// 	}
+// 	@media only screen and (min-width: 60em) {
+// 		background-position: 0px 100%;
+// 		height: 550px;
+// 	}
+// 	@media only screen and (min-width: 90em) {
+// 		background-position: 0px 0px;
+// 		height: 700px;
+// 	}
+// 	h1 {
+// 		padding-top: 3em;
+// 	}
+// }
+// .arrow {
+// 	font-size: 3em;
+// 	text-align: center;
+// 	color: rgba( $white, .8);
+// }
+
+
+.billboard-about-us {
+	background-image: url(../img/about-us.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.8em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 4em;
+		}
+	}
+}
+
+///
+///
+
+.billboard-involve {
+	background-image: url(../img/get-involved.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.8em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 4em;
+		}
+	}
+}
+
+//
+//
+
+.billboard-contact-us {
+	background-image: url(../img/contact-us.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.8em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 4em;
+		}
+	}
+}
+//
+//
+
+.billboard-blog-page {
+	background-image: url(../img/news-press.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.5em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 4em;
+		}
+	}
+}
+
+//
+//
+
+.billboard-resources {
+	background-image: url(../img/resources.jpg);
+	background-size: 150%;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	position: relative;
+ 	background-position: center 0;
+	@media only screen and (min-width: 25em) {
+		background-size: 115%;
+	}
+	@media only screen and (min-width: 38em) {
+		background-size: 105%;
+	}
+	@media only screen and (min-width: 60em) {
+		background-size: 100%;
+	}
+	@media only screen and (min-width: 90em) {
+	}
+	.text-push-down {
+		text-align: center;
+		padding-top: 2.5em;
+		@media only screen and (min-width: 25em) {
+			padding-top: 4em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 38em) {
+			padding-top: 3.5em;
+    		margin-bottom: 5em;
+		}
+		@media only screen and (min-width: 60em) {
+			padding-top: 5em;
+		}
+		@media only screen and (min-width: 90em) {
+			padding-top: 4em;
+		}
+	}
+}
