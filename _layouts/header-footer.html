@@ -4,19 +4,19 @@ layout: default
 
 <header class="header-nav">
 <a class="logo" href="{{site.baseurl}}/">
-	<img class="logo-size" src="{{site.baseurl}}/img/night-logo.svg" alt="project night night logo">
+	<img itemprop="logo"class="logo-size" src="{{site.baseurl}}/img/night-logo.svg" alt="project night night logo">
 </a>
 	<nav>
 		<input type="checkbox" class="nav-check masthead" id="nav-check">
 		<label class="nav-label" for="nav-check"><i>Toggle Navigation</i></label>
 		<ul id="navigation" class="nav">
-			<li><a class="regular {% if page.current == 'home' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
-			<li> <a class="regular {% if page.current == 'about' %}current{% endif %}" class="" href="{{site.baseurl}}/about-us/">About Us</a></li>
-			<li> <a class="regular {% if page.current == 'get-involve' %}current{% endif %}" href="{{site.baseurl}}/get-involved/">Get Involved</a></li>
-			<li> <a class="regular {% if page.current == 'contact-us' %}current{% endif %}" href="{{site.baseurl}}/contact-us/">Contact Us</a></li>
-			<li> <a class="regular {% if page.current == 'news' %}current{% endif %}" href="{{site.baseurl}}/blog-page">News/Press</a></li>
-			<li> <a class="regular {% if page.current == 'resources' %}current{% endif %}" href="{{site.baseurl}}/resources/">Resources</a></li>
-			<li><a class="donate {% if page.current == 'donate' %}current{% endif %}" href="{{site.baseurl}}/donate/">Donate</a></li>
+			<li><a rel="home" class="regular {% if page.current == 'home' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+			<li> <a rel="section" class="regular {% if page.current == 'about' %}current{% endif %}" class="" href="{{site.baseurl}}/about-us/">About Us</a></li>
+			<li> <a rel="section" class="regular {% if page.current == 'get-involve' %}current{% endif %}" href="{{site.baseurl}}/get-involved/">Get Involved</a></li>
+			<li> <a rel="section" class="regular {% if page.current == 'contact-us' %}current{% endif %}" href="{{site.baseurl}}/contact-us/">Contact Us</a></li>
+			<li> <a rel="bookmark" class="regular {% if page.current == 'news' %}current{% endif %}" href="{{site.baseurl}}/blog-page">News/Press</a></li>
+			<li> <a rel="section" class="regular {% if page.current == 'resources' %}current{% endif %}" href="{{site.baseurl}}/resources/">Resources</a></li>
+			<li><a rel="section" class="donate {% if page.current == 'donate' %}current{% endif %}" href="{{site.baseurl}}/donate/">Donate</a></li>
 		</ul>
 	</nav>
 </header>
@@ -31,13 +31,13 @@ layout: default
 			<p> 148 Beulah Street San Francisco, CA 94117 <br>415.310.0360 <br> Federal Tax ID #202877016 </p>
 		</div>
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 social-btn">
-			<a href="#">
+			<a target="_blank" href="https://www.pinterest.com/projectnightx2/">
 				<i class="icon-pinterest-icon icon-size"></i>
 			</a>
-			<a href="#">
+			<a target="_blank" href="https://www.facebook.com/projectnightnight">
 				<i class="icon-facebook-icon icon-size"></i>
 			</a>
-			<a href="#">
+			<a target="_blank" href="https://twitter.com/projectnightx2">
 				<i class="icon-twitter-icon icon-size"></i>
 			</a>
 		</div>
@@ -46,13 +46,13 @@ layout: default
 		<div class="grid">
 			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 				<ul class="footer-link">
-					<li class="micro"><a href="{{site.baseurl}}/">Home</a></li>
-					<li class="micro"><a href="{{site.baseurl}}/">About Us</a></li>
-					<li class="micro"><a href="{{site.baseurl}}/">Get Involved</a></li>
-					<li class="micro"><a href="{{site.baseurl}}/">Contact Us</a></li>
-					<li class="micro"><a href="{{site.baseurl}}/">News/Blog</a></li>
-					<li class="micro"><a href="{{site.baseurl}}/">Resource</a></li>
-					<li class="micro"><a href="{{site.baseurl}}/">Sign-In</a></li>
+					<li class="micro"><a rel="home" href="{{site.baseurl}}/">Home</a></li>
+					<li class="micro"><a rel="section" href="{{site.baseurl}}/">About Us</a></li>
+					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Get Involved</a></li>
+					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Contact Us</a></li>
+					<li class="micro"><a rel="bookmark" href="{{site.baseurl}}/">News/Blog</a></li>
+					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Resource</a></li>
+					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Sign-In</a></li>
 				</ul>
 			</div>
 		</div> <!-- closing of lower nav grid-->

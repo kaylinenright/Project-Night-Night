@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	
+
+
+	
+		
+			<url>
+	<loc>/about-us/</loc>
+	
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>/blog-page/</loc>
+	
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>/contact-us/</loc>
+	
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>/donate/</loc>
+	
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>/get-involved/</loc>
+	
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>/</loc>
+	
+	
+		<priority>1.0</priority>
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>/resources/</loc>
+	
+	
+</url>
+
+		
+	
+		
+	
+		
+			<url>
+	<loc>/thank-you-newsletter/</loc>
+	
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>/thankyou-contact/</loc>
+	
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>/thankyou-donate/</loc>
+	
+	
+</url>
+
+		
+	
+
+</urlset>
