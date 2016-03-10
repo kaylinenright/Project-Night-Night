@@ -2551,6 +2551,7 @@ td, th, fieldset {
   color: #00a5a9;
   font-weight: 800;
   font-family: "Lato", helvetica, sans-serif;
+  padding-left: .5em;
 }
 
 .read-more:hover {
