@@ -2453,6 +2453,10 @@ td, th, fieldset {
   background-color: #fff;
 }
 
+.login-box label {
+  display: inline-block;
+}
+
 .involve-video {
   height: 200px;
   width: 270px;
@@ -2639,7 +2643,7 @@ td, th, fieldset {
   margin-right: 5em;
 }
 
-label {
+.register label {
   display: block;
   font-family: "Lato", helvetica, sans-serif;
   size: 100%;
@@ -2648,7 +2652,7 @@ label {
   text-align: left;
 }
 
-input + label {
+.register input + label {
   display: inline-block;
 }
 

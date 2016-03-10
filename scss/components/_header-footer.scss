@@ -277,7 +277,9 @@
 	@include element-invisible;
 	width: 100%;
 	background-color: $white;
-
+	label {
+		display: inline-block;
+	}
 }
 
 

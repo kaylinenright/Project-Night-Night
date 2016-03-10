@@ -33,7 +33,6 @@
  .register {
         margin-left: 5em;
         margin-right: 5em;
-    }
 
     label {
     display: block;
@@ -47,6 +46,7 @@
 
 input + label {
     display: inline-block;
+}
 }
 
 .award-icon {
