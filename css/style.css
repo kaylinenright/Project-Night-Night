@@ -2652,6 +2652,11 @@ input + label {
   display: inline-block;
 }
 
+.project-icon {
+  font-size: 50em;
+  color: #00a5a9;
+}
+
 .award-icon {
   font-size: 10em;
   color: #fff;
