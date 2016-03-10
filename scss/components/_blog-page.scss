@@ -36,6 +36,9 @@
 
 .under-author {
 	border: 1px solid lighten($gray, 20%);
+	@media only screen and (min-width: 38em) {
+			margin-bottom: 1em;
+		}
 }
 
 .content {

@@ -2525,6 +2525,12 @@ td, th, fieldset {
   border: 1px solid #666666;
 }
 
+@media only screen and (min-width: 38em) {
+  .under-author {
+    margin-bottom: 1em;
+  }
+}
+
 .content {
   margin-bottom: .5em;
 }

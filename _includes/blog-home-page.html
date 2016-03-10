@@ -7,8 +7,8 @@
 <div class="grid">
   {% for news in site.data.news %}
   <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-b-2 gutter">
-    <a href="{{site.url}}{{news.read-more}}"><h4 class="h3-gray">{{news.title}}</h4></a>
     <img src="{{site.baseurl}}/img/{{news.image}}" alt="{{page.news-img-1}}">
+    <a href="{{site.url}}{{news.read-more}}"><h4 class="h3-gray">{{news.title}}</h4></a>
     <p class="date micro">{{news.date}}</p>
     <p class="author small">{{news.author}}</p>
     <div class="under-author"></div>
