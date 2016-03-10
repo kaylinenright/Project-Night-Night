@@ -30,7 +30,12 @@
 .author {
 	font-weight: 600;
 	color: $gray;
+	margin-bottom: .5em; 
 	
+}
+
+.under-author {
+	border: 1px solid lighten($gray, 20%);
 }
 
 .content {
