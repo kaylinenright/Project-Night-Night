@@ -15,7 +15,7 @@
 }
 
 .button{
-    @include button($blue)
+    @include button($blue);
         }
 
 .email {
@@ -33,7 +33,6 @@
  .register {
         margin-left: 5em;
         margin-right: 5em;
-    }
 
     label {
     display: block;
@@ -47,6 +46,13 @@
 
 input + label {
     display: inline-block;
+}
+}
+
+
+.project-icon {
+    font-size: 50em;
+    color: $blue;
 }
 
 .award-icon {
