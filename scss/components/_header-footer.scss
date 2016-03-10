@@ -203,13 +203,19 @@
 	}
 	a {
 		text-decoration: none;
-		color: $white;
-		font-family: sans-serif;
-		&:hover {
-			color: $black;
-		}
+		font-family: $text;
 		@media only screen and (min-width: 38em) {
 			padding: 0 .5em;
+		}
+	}
+}
+
+.footer-text-color {
+	a {
+	color: $white;
+	background-color: $blue;
+			&:hover {
+			color: $black;
 		}
 	}
 }
@@ -260,6 +266,7 @@
     position: relative;
     display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
 .login-holder:before {
@@ -267,22 +274,56 @@
     font-weight: 900;
     color: $white;
 }
-.login-holder:focus .login-box {
-    @include element-invisible-off;
 
+.login-holder:focus {
+	pointer-events: none;
 }
+
+.login-holder:focus .login-box {
+	height: 0;
+    @include element-invisible-off;
+    margin-top: 1em;
+
+    pointer-events: auto;
+}
+
 .login-box {
     position: absolute;
     z-index: 1;
+    height: 100%;
+    transition: height .5s;
 	@include element-invisible;
 	width: 100%;
 	background-color: $white;
-	label {
-		display: inline-block;
-	}
+    label {
+    display: block;
+    font-family: $text;
+    size: 100%;
+    padding-top: 1em;
+    text-align: left;
 }
 
 
+input + label {
+    display: inline-block;
+}
+}
+
+.login {
+	width: 100%;
+}
+
+.login:focus {
+    outline: 2px solid $blue;
+}
+
+.botton {
+	@include button($blue);
+}
+
+.footer-ul {
+	padding-left: 0;
+}
 
 
 
