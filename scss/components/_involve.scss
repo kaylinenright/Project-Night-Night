@@ -55,3 +55,11 @@
 		list-style-type: none;
 	}
 }
+
+.donate-btn {
+  @include donate-button($gray);
+}
+
+.select-btn {
+  @include button($gray);
+}
