@@ -58,6 +58,26 @@
   }
 }
 
+@mixin donate-button($color) {
+  font-family: $text;
+  font-size: .7em;
+  color: $color;  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid $color;
+  color: $color;
+  padding: 1em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba( $white, .8);
+  &:hover {
+    background-color: rgba($color, .8);
+    color: $white;
+  }
+}
+
 @mixin padding-small {
 padding: 0 5% 0 5%;
 }
