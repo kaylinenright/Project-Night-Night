@@ -253,3 +253,34 @@
 		color: $black;
 	}
 }
+
+// **************************** login ****************************//
+ 
+.login-holder {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.login-holder:before {
+    content: "Login";
+    font-weight: 900;
+    color: $white;
+}
+.login-holder:focus .login-box {
+    @include element-invisible-off;
+
+}
+.login-box {
+    position: absolute;
+    z-index: 1;
+	@include element-invisible;
+	width: 100%;
+	background-color: $white;
+
+}
+
+
+
+
+
