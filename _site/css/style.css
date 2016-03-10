@@ -2489,29 +2489,6 @@ td, th, fieldset {
   list-style-type: none;
 }
 
-.blogs {
-  margin: 0;
-  padding: 1em;
-  float: left;
-}
-
-.blog-holder {
-  padding: .5em;
-  margin: -.5em;
-}
-
-.blog-image {
-  width: 100%;
-}
-
-.blog-icons {
-  margin: 0;
-}
-
-.blog-username p {
-  float: left;
-}
-
 .blog-load-more {
   width: 100%;
   text-align: center;
@@ -2541,6 +2518,11 @@ td, th, fieldset {
 .author {
   font-weight: 600;
   color: #333333;
+  margin-bottom: .5em;
+}
+
+.under-author {
+  border: 1px solid #666666;
 }
 
 .content {
@@ -2630,6 +2612,11 @@ label {
 
 input + label {
   display: inline-block;
+}
+
+.award-icon {
+  font-size: 10em;
+  color: #fff;
 }
 
 .sign-up {
