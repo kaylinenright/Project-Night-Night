@@ -1,34 +1,28 @@
 //********************** General Navigation details ***************//
 
-
 .donate {
-	border: solid $blue 2px;
+	font-family: $text;
+	font-size: 1.6em;
+	color: $blue;
+	border: 2px solid $blue;
 	display: block;
-  text-decoration: none;
-  text-align: center;
-  font-family: sans-serif;
-  line-height: 60px;
-  font-size: 1.8020rem;
-  line-height: 60px;
-  color: $blue;
-  font-weight: 700;
-  margin: 0 .75em;
-  padding: 0;
-  text-transform: uppercase;
-  background-color: rgba( $white, .8);
+	text-decoration: none;
+	text-align: center;
+	color: $white;
+	padding: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba( $blue, .8);
+	text-transform: uppercase;
+	font-weight: 700;
+	max-width: 7em;
 	&:hover {
 		background-color: $blue;
 		color: $white;
 	}
 	@media only screen and (min-width: 60em) {
-  	line-height: 60px;
- 		font-size: .8rem;
- 		margin: .25em 0.5em 0 0;
- 		display: inline;
- 		padding: 0.8em 0.8em;
-	}
-	@media only screen and (min-width: 90em) {
-		margin: .25em 3em 0 0;
+		@include button($blue);
+		//line-height: 1;
 	}
 }
 
@@ -203,9 +197,15 @@
 	}
 	a {
 		text-decoration: none;
-		color: $white;
-		font-family: sans-serif;
-		&:hover {
+		font-family: $text;
+}
+}
+
+.footer-text-color {
+	a {
+	color: $white;
+	background-color: $blue;
+			&:hover {
 			color: $black;
 		}
 		@media only screen and (min-width: 38em) {
@@ -253,3 +253,71 @@
 		color: $black;
 	}
 }
+
+// **************************** login ****************************//
+ 
+.login-holder {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.login-holder:before {
+    content: "Login";
+    font-weight: 900;
+    color: $white;
+}
+
+.login-holder:focus {
+	pointer-events: none;
+}
+
+.login-holder:focus .login-box {
+	height: 0;
+    @include element-invisible-off;
+    margin-top: 1em;
+
+    pointer-events: auto;
+}
+
+.login-box {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    transition: height .5s;
+	@include element-invisible;
+	width: 100%;
+	background-color: $white;
+    label {
+    display: block;
+    font-family: $text;
+    size: 100%;
+    padding-top: 1em;
+    text-align: left;
+}
+
+
+input + label {
+    display: inline-block;
+}
+}
+
+.login {
+	width: 100%;
+}
+
+.login:focus {
+    outline: 2px solid $blue;
+}
+
+.botton {
+	@include button($blue);
+}
+
+.footer-ul {
+	padding-left: 0;
+}
+
+
+

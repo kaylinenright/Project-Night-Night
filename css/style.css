@@ -1768,7 +1768,7 @@ td, th, fieldset {
 }
 
 .content-header p {
-  color: #00a5a9;
+  color: #f16824;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1776,6 +1776,33 @@ td, th, fieldset {
 .content-header h3 {
   color: #333333;
   padding-top: .5em;
+}
+
+.content-header .button {
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 1em;
+  color: #f16824;
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid #f16824;
+  color: #f16824;
+  padding: 1em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content-header .button:hover {
+  background-color: rgba(241, 104, 36, 0.8);
+  color: #fff;
+}
+
+.billboard-header {
+  max-width: 17em;
 }
 
 .learn-more {
@@ -2108,20 +2135,21 @@ td, th, fieldset {
 }
 
 .donate {
-  border: solid #00a5a9 2px;
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 1.6em;
+  color: #00a5a9;
+  border: 2px solid #00a5a9;
   display: block;
   text-decoration: none;
   text-align: center;
-  font-family: sans-serif;
-  line-height: 60px;
-  font-size: 1.8020rem;
-  line-height: 60px;
-  color: #00a5a9;
-  font-weight: 700;
-  margin: 0 .75em;
-  padding: 0;
+  color: #fff;
+  padding: .5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 165, 169, 0.8);
   text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  max-width: 7em;
 }
 
 .donate:hover {
@@ -2131,17 +2159,25 @@ td, th, fieldset {
 
 @media only screen and (min-width: 60em) {
   .donate {
-    line-height: 60px;
-    font-size: .8rem;
-    margin: .25em 0.5em 0 0;
-    display: inline;
-    padding: 0.8em 0.8em;
+    font-family: "Lato", helvetica, sans-serif;
+    font-size: 1em;
+    color: #00a5a9;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid #00a5a9;
+    color: #00a5a9;
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.8);
   }
-}
-
-@media only screen and (min-width: 90em) {
-  .donate {
-    margin: .25em 3em 0 0;
+  .donate:hover {
+    background-color: rgba(0, 165, 169, 0.8);
+    color: #fff;
   }
 }
 
@@ -2354,16 +2390,20 @@ td, th, fieldset {
 
 .footer-color a {
   text-decoration: none;
-  color: #fff;
-  font-family: sans-serif;
+  font-family: "Lato", helvetica, sans-serif;
 }
 
-.footer-color a:hover {
+.footer-text-color a {
+  color: #fff;
+  background-color: #00a5a9;
+}
+
+.footer-text-color a:hover {
   color: #000;
 }
 
 @media only screen and (min-width: 38em) {
-  .footer-color a {
+  .footer-text-color a {
     padding: 0 .5em;
   }
 }
@@ -2419,6 +2459,95 @@ td, th, fieldset {
 
 .icon-size:hover {
   color: #000;
+}
+
+.login-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.login-holder:before {
+  content: "Login";
+  font-weight: 900;
+  color: #fff;
+}
+
+.login-holder:focus {
+  pointer-events: none;
+}
+
+.login-holder:focus .login-box {
+  height: 0;
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+  margin-top: 1em;
+  pointer-events: auto;
+}
+
+.login-box {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  transition: height .5s;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 100%;
+  background-color: #fff;
+}
+
+.login-box label {
+  display: block;
+  font-family: "Lato", helvetica, sans-serif;
+  size: 100%;
+  padding-top: 1em;
+  text-align: left;
+}
+
+.login-box input + label {
+  display: inline-block;
+}
+
+.login {
+  width: 100%;
+}
+
+.login:focus {
+  outline: 2px solid #00a5a9;
+}
+
+.botton {
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 1em;
+  color: #00a5a9;
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid #00a5a9;
+  color: #00a5a9;
+  padding: 1em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.botton:hover {
+  background-color: rgba(0, 165, 169, 0.8);
+  color: #fff;
+}
+
+.footer-ul {
+  padding-left: 0;
 }
 
 .involve-video {
@@ -2489,33 +2618,6 @@ td, th, fieldset {
   list-style-type: none;
 }
 
-.blogs {
-  margin: 0;
-  padding: 1em;
-  float: left;
-}
-
-.blog-holder {
-  padding: .5em;
-  margin: -.5em;
-}
-
-.blog-image {
-  width: 100%;
-}
-
-.blog-icons {
-  margin: 0;
-}
-
-.blog-username p {
-  float: left;
-}
-
-.news-section div {
-  padding: 1em;
-}
-
 .blog-load-more {
   width: 100%;
   text-align: center;
@@ -2527,6 +2629,50 @@ td, th, fieldset {
   padding: 1em;
   font-size: 1em;
   margin-top: 1em;
+}
+
+.news-section h4:hover {
+  color: #00a5a9;
+}
+
+.news-section a {
+  text-decoration: none;
+}
+
+.date {
+  margin-bottom: .4em;
+  color: gray;
+}
+
+.author {
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: .5em;
+}
+
+.under-author {
+  border: 1px solid #666666;
+}
+
+@media only screen and (min-width: 38em) {
+  .under-author {
+    margin-bottom: 1em;
+  }
+}
+
+.content {
+  margin-bottom: .5em;
+}
+
+.read-more {
+  color: #00a5a9;
+  font-weight: 800;
+  font-family: "Lato", helvetica, sans-serif;
+  padding-left: .5em;
+}
+
+.read-more:hover {
+  color: #333333;
 }
 
 .yellow-back {
@@ -2590,7 +2736,7 @@ td, th, fieldset {
   margin-right: 5em;
 }
 
-label {
+.register label {
   display: block;
   font-family: "Lato", helvetica, sans-serif;
   size: 100%;
@@ -2599,8 +2745,18 @@ label {
   text-align: left;
 }
 
-input + label {
+.register input + label {
   display: inline-block;
+}
+
+.project-icon {
+  font-size: 50em;
+  color: #00a5a9;
+}
+
+.award-icon {
+  font-size: 10em;
+  color: #fff;
 }
 
 .sign-up {
@@ -2615,6 +2771,20 @@ input + label {
   font-size: .7em;
   margin-left: 2em;
   margin-right: 2em;
+}
+
+.sleeping-icon {
+  font-size: 7em;
+  color: #333333;
+  text-decoration: none;
+  text-align: center;
+}
+
+.metal-icon {
+  font-size: 10em;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
 }
 
 .map-sec {
@@ -2690,6 +2860,24 @@ input + label {
 
 .contact {
   list-style-type: none;
+}
+
+.contact-us {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.contact-us label {
+  display: block;
+  font-family: "Lato", helvetica, sans-serif;
+  size: 100%;
+  padding-top: 1em;
+  padding-bottom: .25em;
+  text-align: left;
+}
+
+.contact-us input + label {
+  display: inline-block;
 }
 
 .resource {

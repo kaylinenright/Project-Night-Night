@@ -23,7 +23,7 @@ layout: default
 
 {{content}}
 
-<footer class="footer-color grid island">
+<footer class="grid pad-t footer-color">
 <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 
 	<div class="grid">
@@ -45,16 +45,38 @@ layout: default
 
 		<div class="grid">
 			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-				<ul class="footer-link">
+				<ul class="footer-ul">
+				<div class="footer-text-color footer-link">
 					<li class="micro"><a rel="home" href="{{site.baseurl}}/">Home</a></li>
 					<li class="micro"><a rel="section" href="{{site.baseurl}}/">About Us</a></li>
 					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Get Involved</a></li>
 					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Contact Us</a></li>
 					<li class="micro"><a rel="bookmark" href="{{site.baseurl}}/">News/Blog</a></li>
 					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Resource</a></li>
-					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Sign-In</a></li>
+					<li class="micro"><a rel="section" href="{{site.baseurl}}/">Donate</a></li>
+				</div>
+					<div tabindex="0" class="login-holder">
+							<form id="login" class="login-box gutter-side">
+								<div class="pad-t">
+									<label for="Email">Email Address</label>
+									<input class="login" type="email" id="e-mail">
+								</div>
+								<div class="">
+									<label for="Password">Password</label>
+									<input class="login" id="name">
+								</div>
+								</fieldset>
+								<div class="text-center unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-t-2 pad-b-2">
+								<div class="second-btn pad-b">
+									<a type="submit" class="button" href="{{site.baseurl}}/thank-you-newsletter">Login</a>
+								</div>
+								</div>
+							</form>
+					</div>
 				</ul>
 			</div>
 		</div> <!-- closing of lower nav grid-->
 	</div> <!-- Closing of footer grid-->
+</div>
 </footer>
+
