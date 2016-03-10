@@ -2354,16 +2354,20 @@ td, th, fieldset {
 
 .footer-color a {
   text-decoration: none;
-  color: #fff;
-  font-family: sans-serif;
+  font-family: "Lato", helvetica, sans-serif;
 }
 
-.footer-color a:hover {
+.footer-text-color a {
+  color: #fff;
+  background-color: #00a5a9;
+}
+
+.footer-text-color a:hover {
   color: #000;
 }
 
 @media only screen and (min-width: 38em) {
-  .footer-color a {
+  .footer-text-color a {
     padding: 0 .5em;
   }
 }
@@ -2425,6 +2429,7 @@ td, th, fieldset {
   position: relative;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 
 .login-holder:before {
@@ -2433,17 +2438,26 @@ td, th, fieldset {
   color: #fff;
 }
 
+.login-holder:focus {
+  pointer-events: none;
+}
+
 .login-holder:focus .login-box {
+  height: 0;
   position: static !important;
   clip: auto;
   height: auto;
   width: auto;
   overflow: auto;
+  margin-top: 1em;
+  pointer-events: auto;
 }
 
 .login-box {
   position: absolute;
   z-index: 1;
+  height: 100%;
+  transition: height .5s;
   position: absolute !important;
   height: 1px;
   width: 1px;
@@ -2451,6 +2465,53 @@ td, th, fieldset {
   clip: rect(1px, 1px, 1px, 1px);
   width: 100%;
   background-color: #fff;
+}
+
+.login-box label {
+  display: block;
+  font-family: "Lato", helvetica, sans-serif;
+  size: 100%;
+  padding-top: 1em;
+  text-align: left;
+}
+
+.login-box input + label {
+  display: inline-block;
+}
+
+.login {
+  width: 100%;
+}
+
+.login:focus {
+  outline: 2px solid #00a5a9;
+}
+
+.botton {
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 1em;
+  color: #00a5a9;
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid #00a5a9;
+  color: #00a5a9;
+  padding: 1em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.botton:hover {
+  background-color: rgba(0, 165, 169, 0.8);
+  color: #fff;
+}
+
+.footer-ul {
+  padding-left: 0;
 }
 
 .involve-video {
@@ -2639,7 +2700,7 @@ td, th, fieldset {
   margin-right: 5em;
 }
 
-label {
+.register label {
   display: block;
   font-family: "Lato", helvetica, sans-serif;
   size: 100%;
@@ -2648,7 +2709,7 @@ label {
   text-align: left;
 }
 
-input + label {
+.register input + label {
   display: inline-block;
 }
 
@@ -2674,6 +2735,20 @@ input + label {
   font-size: .7em;
   margin-left: 2em;
   margin-right: 2em;
+}
+
+.sleeping-icon {
+  font-size: 7em;
+  color: #333333;
+  text-decoration: none;
+  text-align: center;
+}
+
+.metal-icon {
+  font-size: 10em;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
 }
 
 .map-sec {
@@ -2749,6 +2824,24 @@ input + label {
 
 .contact {
   list-style-type: none;
+}
+
+.contact-us {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.contact-us label {
+  display: block;
+  font-family: "Lato", helvetica, sans-serif;
+  size: 100%;
+  padding-top: 1em;
+  padding-bottom: .25em;
+  text-align: left;
+}
+
+.contact-us input + label {
+  display: inline-block;
 }
 
 .resource {

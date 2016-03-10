@@ -15,7 +15,7 @@
 }
 
 .button{
-    @include button($blue)
+    @include button($blue);
         }
 
 .email {
@@ -33,7 +33,6 @@
  .register {
         margin-left: 5em;
         margin-right: 5em;
-    }
 
     label {
     display: block;
@@ -47,6 +46,7 @@
 
 input + label {
     display: inline-block;
+}
 }
 
 
@@ -72,4 +72,18 @@ input + label {
     font-size: .7em;
     margin-left: 2em;
     margin-right: 2em;
+}
+
+.sleeping-icon {
+	font-size: 7em;
+	color: $gray;
+	text-decoration: none;
+	text-align: center;
+}
+
+.metal-icon {
+	font-size: 10em;
+	color: $white;
+	text-decoration: none;
+	text-align: center;
 }
