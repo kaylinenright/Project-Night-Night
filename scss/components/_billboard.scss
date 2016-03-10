@@ -71,7 +71,7 @@
 		font-weight: 900;
 	}
 	p {
-		color: $blue;
+		color: $orange;
 		font-weight: 700;
 		text-transform: uppercase;
 	}
@@ -79,7 +79,15 @@
 		color: $gray;
 		padding-top: .5em;
 	}
+	.button {
+		@include button($orange);
+	}
 }
+
+.billboard-header {
+	max-width: 15em;
+}
+
 
 .learn-more {
   background-color: rgba($blue, .7);
