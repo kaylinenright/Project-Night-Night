@@ -10,26 +10,30 @@ page-sub-title:
 
 {% include billboard.html %}
 
-<main>
+<main class="news-section">
 
-<div class="grid news-section">
-	<h2 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">In the News</h2>
+<div class="grid island">
+	<div class="pad-b-2">
+	<h2 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 h2-orange text-center">In the News</h2>
 {% for news in site.data.news %}
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-		<a href="{{site.url}}{{news.read-more}}"><h4>{{news.title}}</h4></a>
+		<a href="{{site.url}}{{news.read-more}}"><h4 class="h3-gray">{{news.title}}</h4></a>
 	  	<img src="{{site.url}}/img/{{news.image}}" alt="{{page.news-img-1}}">
-	  	<p>{{news.date}}</p>
-	  	<p>{{news.author}}</p>
-	  	<p>{{news.content}}</p>
-	  	<a href="{{site.url}}{{news.read-more}}">Read more...</a>
+	  	<p class="date micro">{{news.date}}</p>
+	  	<p class="author small">{{news.author}}</p>
+	  	<p class="content p-grey">{{news.content}}</p>
+	  	<a class="read-more small" href="{{site.url}}{{news.read-more}}">Read more...</a>
+	</div>
 	</div>
 {% endfor %}
-<h2 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">Press Releases</h2>
+<div class="island">
+<h2 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 h2-orange text-center">Press Releases</h2>
 {% for press in site.data.press %}
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-		<a href="{{site.url}}{{news.read-more}}"><h4>{{press.title}}</h4></a>
-	  	<p>{{press.date}}</p>
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-b">
+		<a href="{{site.url}}{{press.read-more}}"><h4 class="h3-gray">{{press.title}}</h4></a>
+	  	<p class="date micro">{{press.date}}</p>
 	</div>
-{% endfor %}
+	{% endfor %}
+</div>
 </div>
 </main>
