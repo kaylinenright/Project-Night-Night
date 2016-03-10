@@ -76,11 +76,12 @@
 	 display: block;
 	 text-decoration: none;
 	 text-align: center;
-	 font-family: sans-serif;
+	 font-family: $text;
 	 line-height: 60px;
-	 font-size: 1.8020rem;
+	 font-size: 1.4757rem;
 	 line-height: 60px;
-	 color: $black;
+	 color: $gray;
+	 font-weight: 700;
 	&:hover {
 		color: $blue;
 	}
@@ -90,7 +91,7 @@
 	  text-align: center;
 	  font-family: sans-serif;
 	  line-height: 60px;
-	  font-size: 1.8020rem;
+	  font-size: 1.4757rem;
 	  line-height: 60px;
 	  color: $blue;
 		@media only screen and (min-width: 60em) {
@@ -131,12 +132,14 @@
   position: fixed;
   right: 12px;
   top: 22px;
-  color: white;
   background-image: url(../img/nav-icon.svg);
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
   z-index: 2;
+  a {
+  	color: $white;
+  }
   @media only screen and (min-width: 60em) {
   	display: none;
 		top: -30px;
