@@ -15,10 +15,11 @@ page-sub-title:
 	<h2 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 h2-orange text-center pad-t">In the News</h2>
 	{% for news in site.data.news %}
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-b-2 gutter">
+		<img src="{{site.baseurl}}/img/{{news.image}}" alt="{{page.news-img-1}}">
 		<a href="{{site.url}}{{news.read-more}}"><h4 class="h3-gray">{{news.title}}</h4></a>
-	  	<img src="{{site.baseurl}}/img/{{news.image}}" alt="{{page.news-img-1}}">
 	  	<p class="date micro">{{news.date}}</p>
 	  	<p class="author small">{{news.author}}</p>
+	  	<div class="under-author"></div>
 	  	<p class="content p-grey">{{news.content}}
 	  	<a class="read-more small" href="{{site.url}}{{news.read-more}}">Read more...</a></p>
 	  	</div>
