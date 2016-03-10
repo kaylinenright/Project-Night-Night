@@ -204,10 +204,7 @@
 	a {
 		text-decoration: none;
 		font-family: $text;
-		@media only screen and (min-width: 38em) {
-			padding: 0 .5em;
-		}
-	}
+}
 }
 
 .footer-text-color {
@@ -216,6 +213,9 @@
 	background-color: $blue;
 			&:hover {
 			color: $black;
+		}
+		@media only screen and (min-width: 38em) {
+			padding: 0 .5em;
 		}
 	}
 }
