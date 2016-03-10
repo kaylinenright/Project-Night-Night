@@ -2421,6 +2421,38 @@ td, th, fieldset {
   color: #000;
 }
 
+.login-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.login-holder:before {
+  content: "Login";
+  font-weight: 900;
+  color: #fff;
+}
+
+.login-holder:focus .login-box {
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+.login-box {
+  position: absolute;
+  z-index: 1;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 100%;
+  background-color: #fff;
+}
+
 .involve-video {
   height: 200px;
   width: 270px;
