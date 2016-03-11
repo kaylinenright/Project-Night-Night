@@ -2154,14 +2154,14 @@ td, th, fieldset {
 
 .donate {
   font-family: "Lato", helvetica, sans-serif;
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: #00a5a9;
   border: 2px solid #00a5a9;
   display: block;
   text-decoration: none;
   text-align: center;
   color: #fff;
-  padding: .5em;
+  padding: .5em 1em;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(0, 165, 169, 0.8);
@@ -2175,12 +2175,6 @@ td, th, fieldset {
   color: #fff;
 }
 
-@media only screen and (min-width: 38em) {
-  .donate {
-    margin-right: 1.4em;
-  }
-}
-
 @media only screen and (min-width: 60em) {
   .donate {
     font-family: "Lato", helvetica, sans-serif;
@@ -2190,15 +2184,13 @@ td, th, fieldset {
     text-decoration: none;
     border: 2px solid #00a5a9;
     color: #00a5a9;
-    padding: 1em;
+    padding: .5em 1em;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 3.5em;
     text-transform: uppercase;
     font-weight: 700;
     background-color: rgba(255, 255, 255, 0.8);
-    margin-left: 0;
-    margin-right: 3.5em;
   }
   .donate:hover {
     background-color: rgba(0, 165, 169, 0.8);
@@ -2236,8 +2228,7 @@ td, th, fieldset {
     left: 0px;
     -webkit-transition: none;
     transition: none;
-    padding-right: 1em;
-    height: 130px;
+    height: 120px;
   }
 }
 

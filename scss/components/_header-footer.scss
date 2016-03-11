@@ -2,14 +2,14 @@
 
 .donate {
 	font-family: $text;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	color: $blue;
 	border: 2px solid $blue;
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	color: $white;
-	padding: .5em;
+	padding: .5em 1em;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba( $blue, .8);
@@ -20,16 +20,25 @@
 		background-color: $blue;
 		color: $white;
 	}
-	@media only screen and (min-width: 38em) {
-		margin-right: 1.4em;
-		//line-height: 1;
-	}
 	@media only screen and (min-width: 60em) {
-		@include button($blue);
+		@include header($blue);
+		list-style-type: none;
+		text-decoration: none;
+		border: 2px solid $blue;
+		color: $blue;
+		padding: .5em 1em;
+		text-align: center;
 		margin-left: 0;
 		margin-right: 3.5em;
+		text-transform: uppercase;
+		font-weight: 700;
+		background-color: rgba( $white, .8);
+		&:hover {
+		background-color: rgba($blue, .8);
+		color: $white;
 		//line-height: 1;
-	}
+		}
+}
 }
 
 //*************************** Toggle Navigation ***************//
@@ -40,7 +49,7 @@
   padding-top: 80px;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.8);
-  right:30px;
+  right: 30px;
   top: 0;
   width: 100vw;
   height: 100vh;
@@ -58,8 +67,7 @@
 		left: 0px;
 		-webkit-transition: none;
 		transition: none;
-		padding-right: 1em;
-		height: 130px;
+		height: 120px;
 		}
   li {
 		display: block;
