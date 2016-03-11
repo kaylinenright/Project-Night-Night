@@ -195,7 +195,7 @@
 //*****************************************************************//
 
 .footer-color {
-	background-color: $blue;
+	background-color: $gray;
 	xheight: 500px;
 	bottom: 0;
 	li {
@@ -213,10 +213,6 @@
 .footer-text-color {
 	a {
 	color: $white;
-	background-color: $blue;
-			&:hover {
-			color: $black;
-		}
 		@media only screen and (min-width: 38em) {
 			padding: 0 .5em;
 		}
@@ -259,7 +255,8 @@
 	text-decoration: none;
 	text-align: center;
 	&:hover {
-		color: $black;
+		color: $blue;
+
 	}
 }
 
