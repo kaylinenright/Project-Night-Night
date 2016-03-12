@@ -7,20 +7,17 @@
 }
 
  .contact-us {
-        margin-left: 5em;
-        margin-right: 5em;
-
+    margin-left: 5em;
+    margin-right: 5em;
     label {
-    display: block;
-    font-family: $text;
-    size: 100%;
-    padding-top: 1em;
-    padding-bottom: .25em;
-    text-align: left;
-}
-
-
-input + label {
-    display: inline-block;
-}
+        display: block;
+        font-family: $text;
+        size: 100%;
+        padding-top: 1em;
+        padding-bottom: .25em;
+        text-align: left;
+    }
+    input + label {
+        display: inline-block;
+    }
 }
