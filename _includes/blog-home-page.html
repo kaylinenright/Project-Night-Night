@@ -1,12 +1,12 @@
-<section class="gutter-side-half pad-b-2 news-section">
+<section class="gutter-side-half pad-b news-section">
   <div class="grid">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-t">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
       <h2 class="pad-t-2 text-center h1-orange">What's in the News</h2>
     </div>
   </div>
 <div class="grid">
   {% for news in site.data.news %}
-  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-b-2 gutter">
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-b gutter">
     <img src="{{site.baseurl}}/img/{{news.image}}" alt="{{page.news-img-1}}">
     <a href="{{site.url}}{{news.read-more}}"><h4 class="h3-gray">{{news.title}}</h4></a>
     <p class="date micro">{{news.date}}</p>
