@@ -116,6 +116,7 @@ img {
   }
 }
 
+<<<<<<< Updated upstream
 .gutter-side-half {
   padding-left: 0.65rem;
   padding-right: 0.65rem;
@@ -135,6 +136,8 @@ img {
   }
 }
 
+=======
+>>>>>>> Stashed changes
 .h1-blue {
   margin-bottom: 1.5em;
   text-transform: uppercase;
@@ -1770,13 +1773,21 @@ td, th, fieldset {
 
 @media only screen and (min-width: 60em) {
   .content-header {
+<<<<<<< Updated upstream
     padding-top: 10.5em;
+=======
+    padding-top: 14.5em;
+>>>>>>> Stashed changes
   }
 }
 
 @media only screen and (min-width: 90em) {
   .content-header {
+<<<<<<< Updated upstream
     padding-top: 9.5em;
+=======
+    padding-top: 12em;
+>>>>>>> Stashed changes
   }
 }
 
@@ -1807,6 +1818,10 @@ td, th, fieldset {
   border: 2px solid #f16824;
   color: #fff;
   padding: 1em;
+<<<<<<< Updated upstream
+=======
+  margin-top: 2em;
+>>>>>>> Stashed changes
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -1820,7 +1835,11 @@ td, th, fieldset {
 }
 
 .billboard-header {
+<<<<<<< Updated upstream
   max-width: 19em;
+=======
+  max-width: 15em;
+>>>>>>> Stashed changes
 }
 
 .learn-more {
@@ -2154,14 +2173,22 @@ td, th, fieldset {
 
 .donate {
   font-family: "Lato", helvetica, sans-serif;
+<<<<<<< Updated upstream
   font-size: 1.4em;
+=======
+  font-size: 1.6em;
+>>>>>>> Stashed changes
   color: #00a5a9;
   border: 2px solid #00a5a9;
   display: block;
   text-decoration: none;
   text-align: center;
   color: #fff;
+<<<<<<< Updated upstream
   padding: .5em 1em;
+=======
+  padding: .5em;
+>>>>>>> Stashed changes
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(0, 165, 169, 0.8);
@@ -2184,10 +2211,18 @@ td, th, fieldset {
     text-decoration: none;
     border: 2px solid #00a5a9;
     color: #00a5a9;
+<<<<<<< Updated upstream
     padding: .5em 1em;
     text-align: center;
     margin-left: 0;
     margin-right: 3.5em;
+=======
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+>>>>>>> Stashed changes
     text-transform: uppercase;
     font-weight: 700;
     background-color: rgba(255, 255, 255, 0.8);
@@ -2228,7 +2263,12 @@ td, th, fieldset {
     left: 0px;
     -webkit-transition: none;
     transition: none;
+<<<<<<< Updated upstream
     height: 120px;
+=======
+    padding-right: 1em;
+    height: 130px;
+>>>>>>> Stashed changes
   }
 }
 
@@ -2259,12 +2299,20 @@ td, th, fieldset {
   display: block;
   text-decoration: none;
   text-align: center;
+<<<<<<< Updated upstream
   font-family: "Lato", helvetica, sans-serif;
   line-height: 60px;
   font-size: 1.4757rem;
   line-height: 60px;
   color: #333333;
   font-weight: 700;
+=======
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 1.8020rem;
+  line-height: 60px;
+  color: #000;
+>>>>>>> Stashed changes
 }
 
 .regular:hover {
@@ -2277,7 +2325,11 @@ td, th, fieldset {
   text-align: center;
   font-family: sans-serif;
   line-height: 60px;
+<<<<<<< Updated upstream
   font-size: 1.4757rem;
+=======
+  font-size: 1.8020rem;
+>>>>>>> Stashed changes
   line-height: 60px;
   color: #00a5a9;
 }
@@ -2326,6 +2378,10 @@ td, th, fieldset {
   position: fixed;
   right: 12px;
   top: 22px;
+<<<<<<< Updated upstream
+=======
+  color: white;
+>>>>>>> Stashed changes
   background-image: url(../img/nav-icon.svg);
   overflow: hidden;
   text-indent: 100%;
@@ -2333,10 +2389,13 @@ td, th, fieldset {
   z-index: 2;
 }
 
+<<<<<<< Updated upstream
 .nav-label a {
   color: #fff;
 }
 
+=======
+>>>>>>> Stashed changes
 @media only screen and (min-width: 60em) {
   .nav-label {
     display: none;
@@ -2393,7 +2452,11 @@ td, th, fieldset {
 }
 
 .footer-color {
+<<<<<<< Updated upstream
   background-color: #333333;
+=======
+  background-color: #00a5a9;
+>>>>>>> Stashed changes
   xheight: 500px;
   bottom: 0;
 }
@@ -2415,6 +2478,14 @@ td, th, fieldset {
 
 .footer-text-color a {
   color: #fff;
+<<<<<<< Updated upstream
+=======
+  background-color: #00a5a9;
+}
+
+.footer-text-color a:hover {
+  color: #000;
+>>>>>>> Stashed changes
 }
 
 @media only screen and (min-width: 38em) {
@@ -2472,6 +2543,13 @@ td, th, fieldset {
   text-align: center;
 }
 
+<<<<<<< Updated upstream
+=======
+.icon-size:hover {
+  color: #000;
+}
+
+>>>>>>> Stashed changes
 .login-holder {
   position: relative;
   display: inline-block;
@@ -2543,6 +2621,10 @@ td, th, fieldset {
   border: 2px solid #00a5a9;
   color: #00a5a9;
   padding: 1em;
+<<<<<<< Updated upstream
+=======
+  margin-top: 2em;
+>>>>>>> Stashed changes
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -2581,6 +2663,10 @@ td, th, fieldset {
   border: 2px solid #00a5a9;
   color: #00a5a9;
   padding: 1em;
+<<<<<<< Updated upstream
+=======
+  margin-top: 2em;
+>>>>>>> Stashed changes
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -2627,6 +2713,7 @@ td, th, fieldset {
   list-style-type: none;
 }
 
+<<<<<<< Updated upstream
 .donate-btn {
   font-family: "Lato", helvetica, sans-serif;
   font-size: .7em;
@@ -2671,6 +2758,8 @@ td, th, fieldset {
   color: #fff;
 }
 
+=======
+>>>>>>> Stashed changes
 .blog-load-more {
   width: 100%;
   text-align: center;
@@ -2753,6 +2842,10 @@ td, th, fieldset {
   border: 2px solid #00a5a9;
   color: #00a5a9;
   padding: 1em;
+<<<<<<< Updated upstream
+=======
+  margin-top: 2em;
+>>>>>>> Stashed changes
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -2801,6 +2894,7 @@ td, th, fieldset {
   display: inline-block;
 }
 
+<<<<<<< Updated upstream
 .sign-up:focus {
   outline: 2px solid #00a5a9;
 }
@@ -2809,6 +2903,8 @@ td, th, fieldset {
   width: 100%;
 }
 
+=======
+>>>>>>> Stashed changes
 .project-icon {
   font-size: 50em;
   color: #00a5a9;
@@ -2819,8 +2915,23 @@ td, th, fieldset {
   color: #fff;
 }
 
+<<<<<<< Updated upstream
 .small-type {
   font-size: .7em;
+=======
+.sign-up {
+  width: 100%;
+}
+
+.sign-up:focus {
+  outline: 2px solid #00a5a9;
+}
+
+.small-type {
+  font-size: .7em;
+  margin-left: 2em;
+  margin-right: 2em;
+>>>>>>> Stashed changes
 }
 
 .sleeping-icon {
