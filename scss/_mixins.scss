@@ -4,17 +4,6 @@
   padding: 0;
 }
 
-//
-//@mixin ease($transition-property, $transition-time, $method) {
-//    webkit-transition: $transition-property $transition-time $method;
- //   -moz-transition: $transition-property $transition-time $method;
- //   -ms-transition: $transition-property $transition-time $method;
- //   -o-transition: $transition-property $transition-time $method;
-//    transition: $transition-property $transition-time $method;
-//}
-
-// Makes an element visually hidden, but accessible.
-// @see http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 @mixin element-invisible {
   position: absolute !important;
   height: 1px;
@@ -45,7 +34,6 @@
   border: 2px solid $color;
   color: $color;
   padding: 1em;
-  margin-top: 2em;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -55,6 +43,24 @@
   &:hover {
     background-color: rgba($color, .8);
     color: $white;
+  }
+}
+
+@mixin main-donate-button($color) {
+  @include header($color);
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid $color;
+  color: $white;
+  padding: 1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba( $color, .8);
+  &:hover {
+    background-color: rgba($color, 1);
   }
 }
 
@@ -113,10 +119,6 @@ padding-top: 4em;
 padding-bottom: 4em;
 }
 
-@mixin padding-xl-t-b {
-    padding: 0 20% 0 20%;
-}
-
 @mixin h1 ($color) {
     margin-bottom: 1.5em;
     text-transform: uppercase;
@@ -139,7 +141,6 @@ padding-bottom: 4em;
     font-size: 1em;
     line-height: 1.5em;
 }
-
 
 @mixin email ($color) {
     text-decoration: none;

@@ -2,14 +2,14 @@
 
 .donate {
 	font-family: $text;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	color: $blue;
 	border: 2px solid $blue;
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	color: $white;
-	padding: .5em;
+	padding: .5em 1em;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba( $blue, .8);
@@ -21,8 +21,22 @@
 		color: $white;
 	}
 	@media only screen and (min-width: 60em) {
-		@include button($blue);
-		//line-height: 1;
+		@include header($blue);
+		list-style-type: none;
+		text-decoration: none;
+		border: 2px solid $blue;
+		color: $blue;
+		padding: .5em 1em;
+		text-align: center;
+		margin-left: 0;
+		margin-right: 3.5em;
+		text-transform: uppercase;
+		font-weight: 700;
+		background-color: rgba( $white, .8);
+		&:hover {
+			background-color: rgba($blue, .8);
+			color: $white;
+		}
 	}
 }
 
@@ -34,7 +48,7 @@
   padding-top: 80px;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.8);
-  right:30px;
+  right: 30px;
   top: 0;
   width: 100vw;
   height: 100vh;
@@ -52,8 +66,7 @@
 		left: 0px;
 		-webkit-transition: none;
 		transition: none;
-		padding-right: 1em;
-		height: 130px;
+		height: 120px;
 		}
   li {
 		display: block;
@@ -189,7 +202,7 @@
 //*****************************************************************//
 
 .footer-color {
-	background-color: $blue;
+	background-color: $gray;
 	xheight: 500px;
 	bottom: 0;
 	li {
@@ -207,10 +220,6 @@
 .footer-text-color {
 	a {
 	color: $white;
-	background-color: $blue;
-			&:hover {
-			color: $black;
-		}
 		@media only screen and (min-width: 38em) {
 			padding: 0 .5em;
 		}
@@ -252,13 +261,10 @@
 	color: $white;
 	text-decoration: none;
 	text-align: center;
-	&:hover {
-		color: $black;
-	}
 }
 
 // **************************** login ****************************//
- 
+
 .login-holder {
     position: relative;
     display: inline-block;

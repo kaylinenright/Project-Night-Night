@@ -1,3 +1,5 @@
+// colours
+
 .yellow-back {
     background-color: $yellow;
 }
@@ -26,14 +28,15 @@
     text-align: center;
 }
 
+//content styles
+
 .about-us {
     padding-top: 80px;
 }
 
- .register {
-        margin-left: 5em;
-        margin-right: 5em;
-
+.register {
+    margin-left: 5em;
+    margin-right: 5em;
     label {
     display: block;
     font-family: $text;
@@ -41,14 +44,21 @@
     padding-top: 1em;
     padding-bottom: .25em;
     text-align: left;
-}
-
-
-input + label {
+    }
+    input + label {
     display: inline-block;
-}
+    }
 }
 
+.sign-up:focus {
+    outline: 2px solid $blue;
+}
+
+.sign-up {
+    width: 100%;
+}
+
+// icons/awards
 
 .project-icon {
     font-size: 50em;
@@ -60,18 +70,8 @@ input + label {
 	color: $white;
 }
 
-.sign-up {
-    width: 100%;
-}
-
-.sign-up:focus {
-    outline: 2px solid $blue;
-}
-
 .small-type{
     font-size: .7em;
-    margin-left: 2em;
-    margin-right: 2em;
 }
 
 .sleeping-icon {

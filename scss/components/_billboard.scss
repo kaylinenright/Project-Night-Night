@@ -3,6 +3,7 @@
 .over-billboard {
 	background-color: rgba( $white, .5);
 }
+
 .billboard-white {
  	height: 70px;
 	@media only screen and (min-width: 25em) {
@@ -60,15 +61,16 @@
 		padding-top: 10.5em;
 	}
 	@media only screen and (min-width: 60em) {
-		padding-top: 14.5em;
+		padding-top: 10.5em;
 	}
 	@media only screen and (min-width: 90em) {
-		padding-top: 12em;
+		padding-top: 9.5em;
 	}
 	h1 {
 		text-transform: uppercase;
 		color: $gray;
 		font-weight: 900;
+		margin-bottom: .3em;
 	}
 	p {
 		color: $orange;
@@ -80,12 +82,12 @@
 		padding-top: .5em;
 	}
 	.button {
-		@include button($orange);
+		@include main-donate-button($orange);
 	}
 }
 
 .billboard-header {
-	max-width: 17em;
+	max-width: 19em;
 }
 
 
@@ -118,39 +120,7 @@
 	}
 }
 
-
-// .new-billboard {
-// 	background-image: url('{{ site.baseurl }}/img/{{page.img}}');;
-// 	background-size: cover;
-// 	background-repeat: no-repeat;
-// 	width: 100%;
-// 	height: 200px;
-// 	@media only screen and (min-width: 25em) {
-// 		background-position: 0px 100%;
-// 		height: 350px;
-// 	}
-// 	@media only screen and (min-width: 38em) {
-// 		background-position: 0px 100%;
-// 		height: 450px;
-// 	}
-// 	@media only screen and (min-width: 60em) {
-// 		background-position: 0px 100%;
-// 		height: 550px;
-// 	}
-// 	@media only screen and (min-width: 90em) {
-// 		background-position: 0px 0px;
-// 		height: 700px;
-// 	}
-// 	h1 {
-// 		padding-top: 3em;
-// 	}
-// }
-// .arrow {
-// 	font-size: 3em;
-// 	text-align: center;
-// 	color: rgba( $white, .8);
-// }
-
+//About us background elements
 
 .billboard-about-us {
 	background-image: url(../img/about-us.jpg);
@@ -190,8 +160,8 @@
 	}
 }
 
-///
-///
+
+//Get Involved background elements
 
 .billboard-involve {
 	background-image: url(../img/get-involved.jpg);
@@ -231,8 +201,7 @@
 	}
 }
 
-//
-//
+//Contact us background elements
 
 .billboard-contact-us {
 	background-image: url(../img/contact-us.jpg);
@@ -274,8 +243,6 @@
 		}
 	}
 }
-//
-//
 
 .billboard-blog-page {
 	background-image: url(../img/news-press.jpg);
@@ -316,8 +283,7 @@
 	}
 }
 
-//
-//
+//Resources background elements
 
 .billboard-resources {
 	background-image: url(../img/resources.jpg);
