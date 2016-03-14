@@ -2929,6 +2929,19 @@ td, th, fieldset {
 
 .resource {
   list-style-type: none;
+  text-decoration: underline;
+}
+
+.resource li {
+  padding-bottom: .5em;
+}
+
+.resource a {
+  color: #333333;
+}
+
+.resource a:hover {
+  color: #00a5a9;
 }
 
 .newsletter-thankyou {

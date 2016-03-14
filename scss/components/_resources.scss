@@ -1,3 +1,13 @@
 .resource {
 	list-style-type: none;
+	text-decoration: underline;
+	li {
+			padding-bottom: .5em;
+	}
+	a {
+		color: $gray;
+		&:hover {
+			color: $blue;
+		}
+	}
 }
