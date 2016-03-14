@@ -35,8 +35,10 @@
 }
 
 .register {
-    margin-left: 5em;
-    margin-right: 5em;
+    @media only screen and (min-width: 38em) {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
     label {
     display: block;
     font-family: $text;

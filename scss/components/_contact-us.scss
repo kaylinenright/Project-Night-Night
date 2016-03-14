@@ -7,8 +7,10 @@
 }
 
  .contact-us {
-    margin-left: 5em;
-    margin-right: 5em;
+    @media only screen and (min-width: 38em) {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
     label {
         display: block;
         font-family: $text;
@@ -20,4 +22,9 @@
     input + label {
         display: inline-block;
     }
+}
+
+.donate-form {
+    padding-top: 8em;
+    text-align: center;
 }
