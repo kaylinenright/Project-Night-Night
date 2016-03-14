@@ -2789,9 +2789,11 @@ td, th, fieldset {
   padding-top: 80px;
 }
 
-.register {
-  margin-left: 5em;
-  margin-right: 5em;
+@media only screen and (min-width: 38em) {
+  .register {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
 }
 
 .register label {
@@ -2896,9 +2898,11 @@ td, th, fieldset {
   list-style-type: none;
 }
 
-.contact-us {
-  margin-left: 5em;
-  margin-right: 5em;
+@media only screen and (min-width: 38em) {
+  .contact-us {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
 }
 
 .contact-us label {
@@ -2912,6 +2916,11 @@ td, th, fieldset {
 
 .contact-us input + label {
   display: inline-block;
+}
+
+.donate-form {
+  padding-top: 8em;
+  text-align: center;
 }
 
 .resource {
