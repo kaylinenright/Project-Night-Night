@@ -3,6 +3,7 @@
 .over-billboard {
 	background-color: rgba( $white, .5);
 }
+
 .billboard-white {
  	height: 70px;
 	@media only screen and (min-width: 25em) {
@@ -118,39 +119,7 @@
 	}
 }
 
-
-// .new-billboard {
-// 	background-image: url('{{ site.baseurl }}/img/{{page.img}}');;
-// 	background-size: cover;
-// 	background-repeat: no-repeat;
-// 	width: 100%;
-// 	height: 200px;
-// 	@media only screen and (min-width: 25em) {
-// 		background-position: 0px 100%;
-// 		height: 350px;
-// 	}
-// 	@media only screen and (min-width: 38em) {
-// 		background-position: 0px 100%;
-// 		height: 450px;
-// 	}
-// 	@media only screen and (min-width: 60em) {
-// 		background-position: 0px 100%;
-// 		height: 550px;
-// 	}
-// 	@media only screen and (min-width: 90em) {
-// 		background-position: 0px 0px;
-// 		height: 700px;
-// 	}
-// 	h1 {
-// 		padding-top: 3em;
-// 	}
-// }
-// .arrow {
-// 	font-size: 3em;
-// 	text-align: center;
-// 	color: rgba( $white, .8);
-// }
-
+//About us background elements
 
 .billboard-about-us {
 	background-image: url(../img/about-us.jpg);
@@ -190,8 +159,8 @@
 	}
 }
 
-///
-///
+
+//Get Involved background elements
 
 .billboard-involve {
 	background-image: url(../img/get-involved.jpg);
@@ -231,8 +200,7 @@
 	}
 }
 
-//
-//
+//Contact us background elements
 
 .billboard-contact-us {
 	background-image: url(../img/contact-us.jpg);
@@ -274,8 +242,6 @@
 		}
 	}
 }
-//
-//
 
 .billboard-blog-page {
 	background-image: url(../img/news-press.jpg);
@@ -316,8 +282,7 @@
 	}
 }
 
-//
-//
+//Resources background elements
 
 .billboard-resources {
 	background-image: url(../img/resources.jpg);

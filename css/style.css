@@ -2472,10 +2472,6 @@ td, th, fieldset {
   text-align: center;
 }
 
-.icon-size:hover {
-  color: #00a5a9;
-}
-
 .login-holder {
   position: relative;
   display: inline-block;
@@ -2805,6 +2801,14 @@ td, th, fieldset {
   display: inline-block;
 }
 
+.sign-up:focus {
+  outline: 2px solid #00a5a9;
+}
+
+.sign-up {
+  width: 100%;
+}
+
 .project-icon {
   font-size: 50em;
   color: #00a5a9;
@@ -2813,14 +2817,6 @@ td, th, fieldset {
 .award-icon {
   font-size: 10em;
   color: #fff;
-}
-
-.sign-up {
-  width: 100%;
-}
-
-.sign-up:focus {
-  outline: 2px solid #00a5a9;
 }
 
 .small-type {

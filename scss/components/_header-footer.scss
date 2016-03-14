@@ -34,11 +34,10 @@
 		font-weight: 700;
 		background-color: rgba( $white, .8);
 		&:hover {
-		background-color: rgba($blue, .8);
-		color: $white;
-		//line-height: 1;
+			background-color: rgba($blue, .8);
+			color: $white;
 		}
-}
+	}
 }
 
 //*************************** Toggle Navigation ***************//
@@ -262,14 +261,10 @@
 	color: $white;
 	text-decoration: none;
 	text-align: center;
-	&:hover {
-		color: $blue;
-
-	}
 }
 
 // **************************** login ****************************//
- 
+
 .login-holder {
     position: relative;
     display: inline-block;
