@@ -1110,7 +1110,7 @@ fieldset, pre, table {
 }
 
 h1, .exa {
-  font-size: 1.3830rem;
+  font-size: 1.7830rem;
   line-height: 1.9500rem;
   font-family: "Lato", helvetica, sans-serif;
 }
@@ -1279,7 +1279,7 @@ td, th, fieldset {
     line-height: 2.8000rem;
   }
   h1, .exa {
-    font-size: 1.8020rem;
+    font-size: 2.2020rem;
     line-height: 2.4500rem;
   }
   h2, .peta {
@@ -1418,7 +1418,7 @@ td, th, fieldset {
     line-height: 3.0000rem;
   }
   h1, .exa {
-    font-size: 1.8020rem;
+    font-size: 2.2020rem;
     line-height: 2.6250rem;
   }
   h2, .peta {
@@ -1557,7 +1557,7 @@ td, th, fieldset {
     line-height: 3.0000rem;
   }
   h1, .exa {
-    font-size: 1.8020rem;
+    font-size: 2.2020rem;
     line-height: 2.6250rem;
   }
   h2, .peta {
@@ -1902,15 +1902,15 @@ td, th, fieldset {
 
 @media only screen and (min-width: 25em) {
   .billboard-about-us .text-push-down {
-    padding-top: 4em;
-    margin-bottom: 5em;
+    padding-top: 3em;
+    margin-bottom: 2em;
   }
 }
 
 @media only screen and (min-width: 38em) {
   .billboard-about-us .text-push-down {
-    padding-top: 3.8em;
-    margin-bottom: 5em;
+    padding-top: 3em;
+    margin-bottom: 3em;
   }
 }
 
@@ -2782,6 +2782,10 @@ td, th, fieldset {
 }
 
 .text-center {
+  text-align: center;
+}
+
+.about-mission {
   text-align: center;
 }
 
