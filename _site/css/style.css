@@ -1795,6 +1795,7 @@ td, th, fieldset {
   text-transform: uppercase;
   color: #333333;
   font-weight: 900;
+  margin-bottom: .3em;
 }
 
 .content-header p {
@@ -1815,7 +1816,7 @@ td, th, fieldset {
   list-style-type: none;
   text-decoration: none;
   border: 2px solid #f16824;
-  color: #f16824;
+  color: #fff;
   padding: 1em;
 <<<<<<< Updated upstream
 =======
@@ -1826,12 +1827,11 @@ td, th, fieldset {
   margin-right: auto;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(241, 104, 36, 0.8);
 }
 
 .content-header .button:hover {
-  background-color: rgba(241, 104, 36, 0.8);
-  color: #fff;
+  background-color: #f16824;
 }
 
 .billboard-header {
