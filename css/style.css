@@ -1717,31 +1717,37 @@ td, th, fieldset {
   background-color: #00a5a9;
 }
 
+@media only screen and (min-width: 18em) {
+  .billboard {
+    height: 30em;
+  }
+}
+
 @media only screen and (min-width: 25em) {
   .billboard {
     background-position: 0px 100%;
-    height: 500px;
+    height: 30em;
   }
 }
 
 @media only screen and (min-width: 38em) {
   .billboard {
     background-position: 0px 100%;
-    height: 650px;
+    height: 35em;
   }
 }
 
 @media only screen and (min-width: 60em) {
   .billboard {
     background-position: 0px 100%;
-    height: 750px;
+    height: 34em;
   }
 }
 
 @media only screen and (min-width: 90em) {
   .billboard {
     background-position: 0px 0px;
-    height: 850px;
+    height: 38em;
   }
 }
 
@@ -1776,7 +1782,7 @@ td, th, fieldset {
 
 @media only screen and (min-width: 90em) {
   .content-header {
-    padding-top: 9.5em;
+    padding-top: 13em;
   }
 }
 
