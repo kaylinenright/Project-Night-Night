@@ -70,6 +70,7 @@
 		text-transform: uppercase;
 		color: $gray;
 		font-weight: 900;
+		margin-bottom: .3em;
 	}
 	p {
 		color: $orange;
@@ -81,7 +82,7 @@
 		padding-top: .5em;
 	}
 	.button {
-		@include button($orange);
+		@include main-donate-button($orange);
 	}
 }
 
